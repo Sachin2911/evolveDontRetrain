@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evolve, Don't Retrain?</title>
+<meta name="description" content="Small evolved adapters make a frozen world-model planner safer without retraining it, and one adapter transfers unchanged to a system it never saw.">
+<meta property="og:title" content="Evolve, Don't Retrain? Safety Adapters for Frozen Planners on Graded Hazards">
+<meta property="og:description" content="Small evolved adapters make a frozen planner safer without retraining it, and transfer to a system they never saw.">
+<meta property="og:image" content="assets/levels.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c93434'/%3E%3Cpath d='M6 22 Q16 4 26 22' stroke='white' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}]})"></script>
+<style>
+  :root {
+    --bg: #fbfaf8; --surface: #ffffff; --ink: #1b1a19; --ink-2: #4a4846; --muted: #77746f; --rule: #e6e3de;
+    --accent: #2a78d6; --accent-ink: #ffffff; --warm: #c93434; --tile: #f3f1ed; --code: #f3f1ed;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151514; --surface: #1e1e1d; --ink: #ecebe8; --ink-2: #c4c2bd; --muted: #95928c; --rule: #33322f;
+      --accent: #5b9ae6; --accent-ink: #0d0d0c; --warm: #e66767; --tile: #22221f; --code: #22221f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151514; --surface: #1e1e1d; --ink: #ecebe8; --ink-2: #c4c2bd; --muted: #95928c; --rule: #33322f;
+    --accent: #5b9ae6; --accent-ink: #0d0d0c; --warm: #e66767; --tile: #22221f; --code: #22221f;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.65 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 0 16px 64px; }
+  header { text-align: center; padding: 56px 0 28px; }
+  h1 { font-family: "Source Serif 4", Georgia, serif; font-weight: 650; font-size: clamp(2rem, 6vw, 3.1rem); line-height: 1.1; margin: 0 0 10px; letter-spacing: -0.01em; }
+  .subtitle { font-family: "Source Serif 4", Georgia, serif; font-weight: 500; font-size: clamp(1.1rem, 3vw, 1.45rem); color: var(--ink-2); margin: 0 0 20px; }
+  .author { margin: 0; font-weight: 500; }
+  .affil { margin: 2px 0 22px; color: var(--muted); font-size: 0.95rem; }
+  .links { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 999px; background: var(--ink); color: var(--bg);
+         text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: opacity .15s; }
+  .btn:hover { opacity: .85; }
+  .btn svg { width: 18px; height: 18px; fill: currentColor; }
+  .tldr { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--warm); border-radius: 10px; padding: 18px 22px; margin: 8px 0 28px; font-size: 1.05rem; }
+  .tldr strong { font-weight: 600; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 40px; }
+  .stat { background: var(--tile); border-radius: 10px; padding: 14px 14px 12px; }
+  .stat .num { font-family: "Source Serif 4", Georgia, serif; font-size: 1.7rem; font-weight: 650; line-height: 1.15; white-space: nowrap; }
+  .stat .num .arrow { color: var(--muted); font-weight: 500; padding: 0 2px; }
+  .stat .lbl { font-size: 0.85rem; color: var(--ink-2); line-height: 1.4; margin-top: 4px; }
+  h2 { font-family: "Source Serif 4", Georgia, serif; font-weight: 650; font-size: 1.6rem; margin: 48px 0 10px; letter-spacing: -0.005em; }
+  h3 { font-size: 1.05rem; font-weight: 600; margin: 22px 0 4px; }
+  p { margin: 0 0 14px; }
+  figure { margin: 22px 0 26px; }
+  figure .card { background: #ffffff; border: 1px solid var(--rule); border-radius: 10px; padding: 12px; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { color: var(--ink-2); font-size: 0.92rem; margin-top: 8px; line-height: 1.5; }
+  ul.levels { padding-left: 0; list-style: none; margin: 0 0 14px; }
+  ul.levels li { padding-left: 26px; position: relative; margin-bottom: 6px; }
+  ul.levels li::before { content: ""; position: absolute; left: 4px; top: 0.5em; width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; }
+  .panel h3 { margin-top: 0; }
+  .panel p:last-child { margin-bottom: 0; }
+  .katex-display { overflow-x: auto; overflow-y: hidden; padding: 2px 0; margin: 10px 0; }
+  pre { background: var(--code); border-radius: 10px; padding: 14px 16px; overflow-x: auto; font-size: 0.82rem; line-height: 1.5; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.85rem; text-align: center; margin-top: 56px; border-top: 1px solid var(--rule); padding-top: 18px; }
+  @media (max-width: 720px) {
+    body { font-size: 16px; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .two { grid-template-columns: 1fr; }
+    header { padding-top: 36px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Evolve, Don't Retrain?</h1>
+  <p class="subtitle">Safety Adapters for Frozen Planners on Graded Hazards</p>
+  <p class="author">Sachin Mohan</p>
+  <p class="affil">University of the Witwatersrand, Johannesburg</p>
+  <div class="links">
+    <a class="btn" href="paper.pdf">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm7 1.5V9h5.5L13 3.5ZM8 13h8v1.6H8V13Zm0 3.4h8V18H8v-1.6Z"/></svg>
+      Paper (PDF)
+    </a>
+    <a class="btn" href="https://github.com/Sachin2911/evolveDontRetrain">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg>
+      GitHub
+    </a>
+  </div>
+</header>
+
+<div class="tldr">
+  <strong>In one line:</strong> a small evolved adapter makes a frozen planner safer without retraining it, and it
+  <strong>transfers</strong>: one adapter, evolved on three systems driven by two different planners, ran unchanged on a
+  system it never saw and helped most there.
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="num">6<span class="arrow">→</span>16</div><div class="lbl">safe finishes of 18 on the unseen system; no case lost</div></div>
+  <div class="stat"><div class="num">18<span class="arrow">→</span>34</div><div class="lbl">safe finishes of 54 on the three training systems (best adapter)</div></div>
+  <div class="stat"><div class="num">11 / 12</div><div class="lbl">selected adapters with a significant gain over the planner alone</div></div>
+  <div class="stat"><div class="num">24 : 8</div><div class="lbl">cases won : lost by CMA-ES against random search on the unseen system</div></div>
+</div>
+
+<h2>Abstract</h2>
+<p>A small evolved adapter can make a frozen planner safer without retraining it. We evolve two kinds, each starting as
+an exact copy of the planner. <em>Steer</em> is a residual: it adds a sideways push to each move, away from the hazard.
+<em>Choose</em> is a re-ranker: it reorders the planner's own candidate plans and swaps in a clearer one when the planner's
+choice comes too close. Hazards sit on the planner's path at four graded levels, from clear of the path to an unavoidable
+one on the goal. A noticeable result we found was that the adapters transfer. One adapter, evolved on three systems driven
+by two different planners, ran unchanged on a fourth system it never saw and helped most there: safe finishes rose from 6
+to 16/18 with no case lost, and every selected adapter beat the planner alone. On the training systems, safe finishes rose
+from 18 of 54 to between 23 and 34 (11 of 12 significant). The price is some unfinished tasks. CMA-ES held a slight edge
+over random search, all of it on the unseen system, yet one untrained adapter did nearly as well as both: the design, not
+the optimizer, did most of the work. On Block Plucking, an arm task, search found no signal.</p>
+
+<h2>The idea in one picture</h2>
+<p>We place a hazard on the planner's own path at four levels, from clear of the path to on the goal, and ask whether a
+small evolved adapter beside the frozen planner avoids it. The planner never sees the hazard.</p>
+<figure>
+  <div class="card"><img src="assets/levels.png" alt="Top: four sketches of a path with a hazard clear of it, grazing it, on it and on the goal. Bottom: the same four levels on recorded runs of TwoRoom, PushT, Reacher and a 3-D render of the Meta-World basketball scene with the robot arm and four keep-out boxes." loading="lazy"></div>
+  <figcaption>Top: where each level puts the hazard. Bottom: the same four levels on one recorded run of the planner alone per
+  system: TwoRoom, PushT and Reacher (LeWM) and Meta-World basketball (TD-MPC2).</figcaption>
+</figure>
+
+<h2>Results at a glance</h2>
+<figure>
+  <div class="card"><img src="assets/test.png" alt="Safe finishes on the test cases for every selected adapter, per system, against a dashed line for the planner alone." loading="lazy"></div>
+  <figcaption>The dashed line is the planner alone. Nearly every selected adapter sits to its right on every system,
+  including Reacher, which search never saw.</figcaption>
+</figure>
+<figure>
+  <div class="card"><img src="assets/trajectories.png" alt="Five recorded paths in which Steer from CMA-ES goes around the hazard while the planner alone touches it." loading="lazy"></div>
+  <figcaption>Recorded paths, one test case per panel; a red × marks the first touch. In the first four panels Steer
+  from CMA-ES goes around the hazard and finishes safely; in the last, Choose does.</figcaption>
+</figure>
+
+<p style="color:var(--muted);font-size:.92rem">Draft page; more to come.</p>
+
+<h2>Citation</h2>
+<pre><code>@misc{mohan2026evolve,
+  title  = {Evolve, Don't Retrain? Safety Adapters for Frozen Planners on Graded Hazards},
+  author = {Mohan, Sachin},
+  year   = {2026},
+  note   = {University of the Witwatersrand},
+  url    = {https://sachin2911.github.io/evolveDontRetrain/}
+}</code></pre>
+
+<footer>© 2026 Sachin Mohan · University of the Witwatersrand</footer>
+</main>
+</body>
+</html>
