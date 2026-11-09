@@ -99,29 +99,30 @@
 </header>
 
 <div class="tldr">
-  <strong>In one line:</strong> a small evolved adapter makes a frozen planner safer without retraining it, and it
-  <strong>transfers</strong>: one adapter, evolved on three systems driven by two different planners, ran unchanged on a
-  system it never saw and helped most there.
+  <strong>In one line:</strong> a small evolved adapter makes a frozen planner safer without retraining it, and the design
+  <strong>transfers</strong>: evolved on three systems driven by two different planners, the adapters ran unchanged on a
+  system search never saw, and every selected one beat the planner alone there.
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="num">6<span class="arrow">→</span>16</div><div class="lbl">safe finishes of 18 on the unseen system; no case lost</div></div>
+  <div class="stat"><div class="num">6<span class="arrow">→</span>16</div><div class="lbl">safe finishes of 18 on the unseen system (best adapter); no case lost</div></div>
+  <div class="stat"><div class="num">12 / 12</div><div class="lbl">selected adapters beat the planner alone on the unseen system</div></div>
   <div class="stat"><div class="num">18<span class="arrow">→</span>34</div><div class="lbl">safe finishes of 54 on the three training systems (best adapter)</div></div>
-  <div class="stat"><div class="num">11 / 12</div><div class="lbl">selected adapters with a significant gain over the planner alone</div></div>
-  <div class="stat"><div class="num">24 : 8</div><div class="lbl">cases won : lost by CMA-ES against random search on the unseen system</div></div>
+  <div class="stat"><div class="num">11 / 12</div><div class="lbl">significant gains over the planner alone on the training systems</div></div>
 </div>
 
 <h2>Abstract</h2>
 <p>A small evolved adapter can make a frozen planner safer without retraining it. We evolve two kinds, each starting as
 an exact copy of the planner. <em>Steer</em> is a residual: it adds a sideways push to each move, away from the hazard.
 <em>Choose</em> is a re-ranker: it reorders the planner's own candidate plans and swaps in a clearer one when the planner's
-choice comes too close. Hazards sit on the planner's path at four graded levels, from clear of the path to an unavoidable
-one on the goal. A noticeable result we found was that the adapters transfer. One adapter, evolved on three systems driven
-by two different planners, ran unchanged on a fourth system it never saw and helped most there: safe finishes rose from 6
-to 16/18 with no case lost, and every selected adapter beat the planner alone. On the training systems, safe finishes rose
-from 18 of 54 to between 23 and 34 (11 of 12 significant). The price is some unfinished tasks. CMA-ES held a slight edge
-over random search, all of it on the unseen system, yet one untrained adapter did nearly as well as both: the design, not
-the optimizer, did most of the work. On Block Plucking, an arm task, search found no signal.</p>
+choice comes too close. Hazards are placed against the planner's path at four graded levels, from clear of the path to an
+unavoidable one on the goal. A noticeable result we found was that the adapters transfer. Evolved on three systems driven
+by two different planners, they ran unchanged on a fourth system that search never saw: every selected adapter beat the
+planner alone, and the best rose from 6 to 16/18 with no case lost. Untrained adapters gained there too, so it is the
+design that transfers. On the training systems, safe finishes rose from 18 of 54 to between 23 and 34 (11 of 12
+significant). The price is some unfinished tasks. CMA-ES held a slight edge over random search, all of it on the unseen
+system, yet one untrained adapter did nearly as well as both: the design, not the optimizer, did most of the work. On
+Block Plucking, an arm task, search found no signal.</p>
 
 <h2>The idea in one picture</h2>
 <p>We place a hazard on the planner's own path at four levels, from clear of the path to on the goal, and ask whether a
