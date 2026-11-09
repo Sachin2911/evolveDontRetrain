@@ -1,0 +1,2066 @@
+[
+ {
+  "id": "basketball-s2000-L1-left",
+  "env": "basketball",
+  "group": "s2000",
+  "level": 1,
+  "split": "train",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.053756077758258344,
+    0.4356240459631672,
+    0.11602376340113925
+   ],
+   "box_hi": [
+    -0.011971235318630608,
+    0.47740888840279494,
+    0.15780860584076697
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.03270444979426933,
+   0.7857934596166429,
+   0.25
+  ],
+  "seed": 2000,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.098858547833943,
+   "parity_sha256": "6f28752f34270c4427cecd1ae7a364e65bf9eccf5b350d1adf1dccace199d036"
+  },
+  "placement": {
+   "carry_decisions": [
+    68,
+    96
+   ],
+   "anchor_decision": 85,
+   "gripper_ball_offset_max_m": 0.01869938006480234
+  }
+ },
+ {
+  "id": "basketball-s2000-L2-left",
+  "env": "basketball",
+  "group": "s2000",
+  "level": 2,
+  "split": "train",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.07038854663485247,
+    0.48995473004830675,
+    0.11602376340113925
+   ],
+   "box_hi": [
+    -0.028603704195224736,
+    0.5317395724879345,
+    0.15780860584076697
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.03270444979426933,
+   0.7857934596166429,
+   0.25
+  ],
+  "seed": 2000,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "6f28752f34270c4427cecd1ae7a364e65bf9eccf5b350d1adf1dccace199d036"
+  },
+  "placement": {
+   "carry_decisions": [
+    68,
+    96
+   ],
+   "anchor_decision": 85,
+   "gripper_ball_offset_max_m": 0.01869938006480234
+  }
+ },
+ {
+  "id": "basketball-s2000-L3-on",
+  "env": "basketball",
+  "group": "s2000",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.08375607775825837,
+    0.5056240459631672,
+    0.11602376340113925
+   ],
+   "box_hi": [
+    -0.04197123531863063,
+    0.5474088884027949,
+    0.15780860584076697
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.03270444979426933,
+   0.7857934596166429,
+   0.25
+  ],
+  "seed": 2000,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "6f28752f34270c4427cecd1ae7a364e65bf9eccf5b350d1adf1dccace199d036"
+  },
+  "placement": {
+   "carry_decisions": [
+    68,
+    96
+   ],
+   "anchor_decision": 85,
+   "gripper_ball_offset_max_m": 0.01869938006480234
+  }
+ },
+ {
+  "id": "basketball-s2004-L1-right",
+  "env": "basketball",
+  "group": "s2004",
+  "level": 1,
+  "split": "train",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.10796755974434065,
+    0.5399923301020916,
+    0.2172797236037321
+   ],
+   "box_hi": [
+    -0.06618271730471291,
+    0.5817771725417192,
+    0.2590645660433598
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0028608300526692526,
+   0.80493701541421,
+   0.25
+  ],
+  "seed": 2004,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.2872062381217626,
+   "parity_sha256": "56d7a6f4e2e7fdee41d7826092333357f4024075aba9567a13660826ffbb4a2a"
+  },
+  "placement": {
+   "carry_decisions": [
+    52,
+    70
+   ],
+   "anchor_decision": 61,
+   "gripper_ball_offset_max_m": 0.018646481676289937
+  }
+ },
+ {
+  "id": "basketball-s2004-L2-right",
+  "env": "basketball",
+  "group": "s2004",
+  "level": 2,
+  "split": "train",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.07363687565920106,
+    0.5643900293953126,
+    0.15727972360373207
+   ],
+   "box_hi": [
+    -0.031852033219573334,
+    0.6061748718349402,
+    0.1990645660433598
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0028608300526692526,
+   0.80493701541421,
+   0.25
+  ],
+  "seed": 2004,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999972,
+   "parity_sha256": "56d7a6f4e2e7fdee41d7826092333357f4024075aba9567a13660826ffbb4a2a"
+  },
+  "placement": {
+   "carry_decisions": [
+    52,
+    70
+   ],
+   "anchor_decision": 61,
+   "gripper_ball_offset_max_m": 0.018646481676289937
+  }
+ },
+ {
+  "id": "basketball-s2004-L3-on",
+  "env": "basketball",
+  "group": "s2004",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.05796755974434066,
+    0.5499923301020916,
+    0.15727972360373207
+   ],
+   "box_hi": [
+    -0.016182717304712924,
+    0.5917771725417192,
+    0.1990645660433598
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0028608300526692526,
+   0.80493701541421,
+   0.25
+  ],
+  "seed": 2004,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "56d7a6f4e2e7fdee41d7826092333357f4024075aba9567a13660826ffbb4a2a"
+  },
+  "placement": {
+   "carry_decisions": [
+    52,
+    70
+   ],
+   "anchor_decision": 61,
+   "gripper_ball_offset_max_m": 0.018646481676289937
+  }
+ },
+ {
+  "id": "basketball-s2005-L1-left",
+  "env": "basketball",
+  "group": "s2005",
+  "level": 1,
+  "split": "train",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.11999251046841695,
+    0.5647929008110426,
+    0.13259294345621456
+   ],
+   "box_hi": [
+    0.16177735290804468,
+    0.6065777432506703,
+    0.17437778589584227
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.050290284306163086,
+   0.8088448554377505,
+   0.25
+  ],
+  "seed": 2005,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.226767665511014,
+   "parity_sha256": "9e6838a6c0971fb19e739e84139df8212dd0d084b19f1e8ad4b8033ac06a6f66"
+  },
+  "placement": {
+   "carry_decisions": [
+    31,
+    51
+   ],
+   "anchor_decision": 43,
+   "gripper_ball_offset_max_m": 0.027305591750350876
+  }
+ },
+ {
+  "id": "basketball-s2005-L2-left",
+  "env": "basketball",
+  "group": "s2005",
+  "level": 2,
+  "split": "train",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.0682468371369458,
+    0.5828414458121369,
+    0.13259294345621456
+   ],
+   "box_hi": [
+    0.11003167957657355,
+    0.6246262882517646,
+    0.17437778589584227
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.050290284306163086,
+   0.8088448554377505,
+   0.25
+  ],
+  "seed": 2005,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.2499999999999994,
+   "parity_sha256": "9e6838a6c0971fb19e739e84139df8212dd0d084b19f1e8ad4b8033ac06a6f66"
+  },
+  "placement": {
+   "carry_decisions": [
+    31,
+    51
+   ],
+   "anchor_decision": 43,
+   "gripper_ball_offset_max_m": 0.027305591750350876
+  }
+ },
+ {
+  "id": "basketball-s2005-L3-on",
+  "env": "basketball",
+  "group": "s2005",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.04999251046841695,
+    0.5747929008110426,
+    0.13259294345621456
+   ],
+   "box_hi": [
+    0.09177735290804469,
+    0.6165777432506703,
+    0.17437778589584227
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.050290284306163086,
+   0.8088448554377505,
+   0.25
+  ],
+  "seed": 2005,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "9e6838a6c0971fb19e739e84139df8212dd0d084b19f1e8ad4b8033ac06a6f66"
+  },
+  "placement": {
+   "carry_decisions": [
+    31,
+    51
+   ],
+   "anchor_decision": 43,
+   "gripper_ball_offset_max_m": 0.027305591750350876
+  }
+ },
+ {
+  "id": "basketball-s2007-L1-right",
+  "env": "basketball",
+  "group": "s2007",
+  "level": 1,
+  "split": "train",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.2664568091326098,
+    0.6858089429200158,
+    0.1781249700931687
+   ],
+   "box_hi": [
+    0.30824165157223754,
+    0.7275937853596435,
+    0.2199098125327964
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.0521349352703539,
+   0.8087283398864114,
+   0.25
+  ],
+  "seed": 2007,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.333426868469422,
+   "parity_sha256": "a36a4395313c4c13358c1c76f43e0976504ac5498e17043579245ce527585803"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.029743370169792296
+  }
+ },
+ {
+  "id": "basketball-s2007-L2-right",
+  "env": "basketball",
+  "group": "s2007",
+  "level": 2,
+  "split": "train",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.25786118119799073,
+    0.7294469563142827,
+    0.11812497009316865
+   ],
+   "box_hi": [
+    0.2996460236376185,
+    0.7712317987539103,
+    0.15990981253279637
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.0521349352703539,
+   0.8087283398864114,
+   0.25
+  ],
+  "seed": 2007,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "a36a4395313c4c13358c1c76f43e0976504ac5498e17043579245ce527585803"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.029743370169792296
+  }
+ },
+ {
+  "id": "basketball-s2007-L3-on",
+  "env": "basketball",
+  "group": "s2007",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.2764568091326098,
+    0.7358089429200159,
+    0.11812497009316865
+   ],
+   "box_hi": [
+    0.31824165157223755,
+    0.7775937853596435,
+    0.15990981253279637
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.0521349352703539,
+   0.8087283398864114,
+   0.25
+  ],
+  "seed": 2007,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "a36a4395313c4c13358c1c76f43e0976504ac5498e17043579245ce527585803"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.029743370169792296
+  }
+ },
+ {
+  "id": "basketball-s2011-L1-left",
+  "env": "basketball",
+  "group": "s2011",
+  "level": 1,
+  "split": "train",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.07100780816411602,
+    0.6829058332638454,
+    0.13143676742110733
+   ],
+   "box_hi": [
+    -0.029222965724488282,
+    0.724690675703473,
+    0.17322160986073504
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.06539251827891895,
+   0.797410811527671,
+   0.25
+  ],
+  "seed": 2011,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0149957063803026,
+   "parity_sha256": "d3bbcc92feea66dd09c7fa0afab64c3f3e5005e84cd505f1312ec2d5805927bd"
+  },
+  "placement": {
+   "carry_decisions": [
+    8,
+    27
+   ],
+   "anchor_decision": 20,
+   "gripper_ball_offset_max_m": 0.016116508221663377
+  }
+ },
+ {
+  "id": "basketball-s2011-L2-left",
+  "env": "basketball",
+  "group": "s2011",
+  "level": 2,
+  "split": "train",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.05816208035478601,
+    0.634771221529949,
+    0.1114367674211073
+   ],
+   "box_hi": [
+    -0.016377237915158275,
+    0.6765560639695767,
+    0.15322160986073502
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.06539251827891895,
+   0.797410811527671,
+   0.25
+  ],
+  "seed": 2011,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "d3bbcc92feea66dd09c7fa0afab64c3f3e5005e84cd505f1312ec2d5805927bd"
+  },
+  "placement": {
+   "carry_decisions": [
+    8,
+    27
+   ],
+   "anchor_decision": 20,
+   "gripper_ball_offset_max_m": 0.016116508221663377
+  }
+ },
+ {
+  "id": "basketball-s2011-L3-on",
+  "env": "basketball",
+  "group": "s2011",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.04100780816411602,
+    0.6129058332638454,
+    0.1114367674211073
+   ],
+   "box_hi": [
+    0.0007770342755117135,
+    0.6546906757034731,
+    0.15322160986073502
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.06539251827891895,
+   0.797410811527671,
+   0.25
+  ],
+  "seed": 2011,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "d3bbcc92feea66dd09c7fa0afab64c3f3e5005e84cd505f1312ec2d5805927bd"
+  },
+  "placement": {
+   "carry_decisions": [
+    8,
+    27
+   ],
+   "anchor_decision": 20,
+   "gripper_ball_offset_max_m": 0.016116508221663377
+  }
+ },
+ {
+  "id": "basketball-s2016-L1-right",
+  "env": "basketball",
+  "group": "s2016",
+  "level": 1,
+  "split": "train",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.0836649684798945,
+    0.6868649505383788,
+    0.17487346022188058
+   ],
+   "box_hi": [
+    0.12544981091952223,
+    0.7286497929780065,
+    0.2166583026615083
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.04833033389526048,
+   0.7901045817711438,
+   0.25
+  ],
+  "seed": 2016,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.086474582376093,
+   "parity_sha256": "afb887601caba6ec00a6e6c355290c0775fc6a60ca7cde6d58541bb10b09c57f"
+  },
+  "placement": {
+   "carry_decisions": [
+    22,
+    38
+   ],
+   "anchor_decision": 31,
+   "gripper_ball_offset_max_m": 0.021683207528340992
+  }
+ },
+ {
+  "id": "basketball-s2016-L2-right",
+  "env": "basketball",
+  "group": "s2016",
+  "level": 2,
+  "split": "train",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.14224502503677067,
+    0.6725342664532392,
+    0.15487346022188056
+   ],
+   "box_hi": [
+    0.18402986747639838,
+    0.7143191088928669,
+    0.19665830266150827
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.04833033389526048,
+   0.7901045817711438,
+   0.25
+  ],
+  "seed": 2016,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "afb887601caba6ec00a6e6c355290c0775fc6a60ca7cde6d58541bb10b09c57f"
+  },
+  "placement": {
+   "carry_decisions": [
+    22,
+    38
+   ],
+   "anchor_decision": 31,
+   "gripper_ball_offset_max_m": 0.021683207528340992
+  }
+ },
+ {
+  "id": "basketball-s2016-L3-on",
+  "env": "basketball",
+  "group": "s2016",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.15366496847989453,
+    0.6568649505383788,
+    0.15487346022188056
+   ],
+   "box_hi": [
+    0.19544981091952224,
+    0.6986497929780064,
+    0.19665830266150827
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.04833033389526048,
+   0.7901045817711438,
+   0.25
+  ],
+  "seed": 2016,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "afb887601caba6ec00a6e6c355290c0775fc6a60ca7cde6d58541bb10b09c57f"
+  },
+  "placement": {
+   "carry_decisions": [
+    22,
+    38
+   ],
+   "anchor_decision": 31,
+   "gripper_ball_offset_max_m": 0.021683207528340992
+  }
+ },
+ {
+  "id": "basketball-s2018-L1-left",
+  "env": "basketball",
+  "group": "s2018",
+  "level": 1,
+  "split": "select",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.05357307277273861,
+    0.7184906219022587,
+    0.3505891696663715
+   ],
+   "box_hi": [
+    0.09535791521236635,
+    0.7602754643418863,
+    0.39237401210599926
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.03872022085570594,
+   0.7893204993928797,
+   0.25
+  ],
+  "seed": 2018,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.063064271245123,
+   "parity_sha256": "f40ced93e45b3ed703e5c3f6ca1f6e3b63a0fbad067f9fe4c73afd8a74845801"
+  },
+  "placement": {
+   "carry_decisions": [
+    46,
+    62
+   ],
+   "anchor_decision": 54,
+   "gripper_ball_offset_max_m": 0.02886081993879852
+  }
+ },
+ {
+  "id": "basketball-s2018-L2-left",
+  "env": "basketball",
+  "group": "s2018",
+  "level": 2,
+  "split": "select",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.047903756857878205,
+    0.7230471264056814,
+    0.2705891696663715
+   ],
+   "box_hi": [
+    0.08968859929750594,
+    0.764831968845309,
+    0.31237401210599924
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.03872022085570594,
+   0.7893204993928797,
+   0.25
+  ],
+  "seed": 2018,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.2499999999999994,
+   "parity_sha256": "f40ced93e45b3ed703e5c3f6ca1f6e3b63a0fbad067f9fe4c73afd8a74845801"
+  },
+  "placement": {
+   "carry_decisions": [
+    46,
+    62
+   ],
+   "anchor_decision": 54,
+   "gripper_ball_offset_max_m": 0.02886081993879852
+  }
+ },
+ {
+  "id": "basketball-s2018-L3-on",
+  "env": "basketball",
+  "group": "s2018",
+  "level": 3,
+  "split": "select",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.06357307277273862,
+    0.7084906219022586,
+    0.2705891696663715
+   ],
+   "box_hi": [
+    0.10535791521236636,
+    0.7502754643418863,
+    0.31237401210599924
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.03872022085570594,
+   0.7893204993928797,
+   0.25
+  ],
+  "seed": 2018,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "f40ced93e45b3ed703e5c3f6ca1f6e3b63a0fbad067f9fe4c73afd8a74845801"
+  },
+  "placement": {
+   "carry_decisions": [
+    46,
+    62
+   ],
+   "anchor_decision": 54,
+   "gripper_ball_offset_max_m": 0.02886081993879852
+  }
+ },
+ {
+  "id": "basketball-s2022-L1-right",
+  "env": "basketball",
+  "group": "s2022",
+  "level": 1,
+  "split": "select",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.14040643710901354,
+    0.5889560335846922,
+    0.09189501019654765
+   ],
+   "box_hi": [
+    0.18219127954864126,
+    0.6307408760243198,
+    0.13367985263617538
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.09000519770565585,
+   0.801270452578184,
+   0.25
+  ],
+  "seed": 2022,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.3597722242880783,
+   "parity_sha256": "934f4901568cedb46d922996235630bd15de1d7ff6ff43140167ee177715b36d"
+  },
+  "placement": {
+   "carry_decisions": [
+    44,
+    68
+   ],
+   "anchor_decision": 57,
+   "gripper_ball_offset_max_m": 0.027382044693125107
+  }
+ },
+ {
+  "id": "basketball-s2022-L2-right",
+  "env": "basketball",
+  "group": "s2022",
+  "level": 2,
+  "split": "select",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.06439131253661297,
+    0.5776875858733057,
+    0.09189501019654764
+   ],
+   "box_hi": [
+    0.10617615497624071,
+    0.6194724283129334,
+    0.13367985263617538
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.09000519770565585,
+   0.801270452578184,
+   0.25
+  ],
+  "seed": 2022,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "934f4901568cedb46d922996235630bd15de1d7ff6ff43140167ee177715b36d"
+  },
+  "placement": {
+   "carry_decisions": [
+    44,
+    68
+   ],
+   "anchor_decision": 57,
+   "gripper_ball_offset_max_m": 0.027382044693125107
+  }
+ },
+ {
+  "id": "basketball-s2022-L3-on",
+  "env": "basketball",
+  "group": "s2022",
+  "level": 3,
+  "split": "select",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.07040643710901351,
+    0.5589560335846921,
+    0.09189501019654764
+   ],
+   "box_hi": [
+    0.11219127954864125,
+    0.6007408760243198,
+    0.13367985263617538
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.09000519770565585,
+   0.801270452578184,
+   0.25
+  ],
+  "seed": 2022,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "934f4901568cedb46d922996235630bd15de1d7ff6ff43140167ee177715b36d"
+  },
+  "placement": {
+   "carry_decisions": [
+    44,
+    68
+   ],
+   "anchor_decision": 57,
+   "gripper_ball_offset_max_m": 0.027382044693125107
+  }
+ },
+ {
+  "id": "basketball-s6003-L1-left",
+  "env": "basketball",
+  "group": "s6003",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.1748582747329757,
+    0.5811618580314879,
+    0.08809358741468022
+   ],
+   "box_hi": [
+    0.2166431171726034,
+    0.6229467004711156,
+    0.12987842985430795
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0851456971267566,
+   0.7975307617295886,
+   0.25
+  ],
+  "seed": 6003,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.2686117906344396,
+   "parity_sha256": "711fad88f51e99d9b3b8d6034842846b1d7060062ab55b69de9fe345f1f650b2"
+  },
+  "placement": {
+   "carry_decisions": [
+    37,
+    86
+   ],
+   "anchor_decision": 71,
+   "gripper_ball_offset_max_m": 0.02754302471080664
+  }
+ },
+ {
+  "id": "basketball-s6003-L2-left",
+  "env": "basketball",
+  "group": "s6003",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.12162779825173849,
+    0.5953531108199667,
+    0.08809358741468021
+   ],
+   "box_hi": [
+    0.1634126406913662,
+    0.6371379532595943,
+    0.12987842985430795
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0851456971267566,
+   0.7975307617295886,
+   0.25
+  ],
+  "seed": 6003,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "711fad88f51e99d9b3b8d6034842846b1d7060062ab55b69de9fe345f1f650b2"
+  },
+  "placement": {
+   "carry_decisions": [
+    37,
+    86
+   ],
+   "anchor_decision": 71,
+   "gripper_ball_offset_max_m": 0.02754302471080664
+  }
+ },
+ {
+  "id": "basketball-s6003-L3-on",
+  "env": "basketball",
+  "group": "s6003",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.10485827473297567,
+    0.5911618580314879,
+    0.08809358741468021
+   ],
+   "box_hi": [
+    0.1466431171726034,
+    0.6329467004711156,
+    0.12987842985430795
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0851456971267566,
+   0.7975307617295886,
+   0.25
+  ],
+  "seed": 6003,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "711fad88f51e99d9b3b8d6034842846b1d7060062ab55b69de9fe345f1f650b2"
+  },
+  "placement": {
+   "carry_decisions": [
+    37,
+    86
+   ],
+   "anchor_decision": 71,
+   "gripper_ball_offset_max_m": 0.02754302471080664
+  }
+ },
+ {
+  "id": "basketball-s6003-L4-goal",
+  "env": "basketball",
+  "group": "s6003",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.1979118271425167,
+    0.6847646317138285,
+    0.1372338699842399
+   ],
+   "box_hi": [
+    0.02762043288900351,
+    0.9102968917453487,
+    0.3627661300157601
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0851456971267566,
+   0.7975307617295886,
+   0.25
+  ],
+  "seed": 6003,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -3.3478203102712967,
+   "parity_sha256": "711fad88f51e99d9b3b8d6034842846b1d7060062ab55b69de9fe345f1f650b2"
+  },
+  "placement": {
+   "carry_decisions": [
+    37,
+    86
+   ],
+   "anchor_decision": 71,
+   "gripper_ball_offset_max_m": 0.02754302471080664
+  }
+ },
+ {
+  "id": "basketball-s6009-L1-right",
+  "env": "basketball",
+  "group": "s6009",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.011316223279782187,
+    0.712808295216526,
+    0.1748676825385944
+   ],
+   "box_hi": [
+    0.030468619159845545,
+    0.7545931376561537,
+    0.2166525249782221
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.018155977637624957,
+   0.7903875017287622,
+   0.25
+  ],
+  "seed": 6009,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.2394323014118593,
+   "parity_sha256": "a90961eed9f9ee831a76be1a19fc5efa8f61bd14440bcacd0c79212ecf51c688"
+  },
+  "placement": {
+   "carry_decisions": [
+    61,
+    67
+   ],
+   "anchor_decision": 64,
+   "gripper_ball_offset_max_m": 0.025897045099392748
+  }
+ },
+ {
+  "id": "basketball-s6009-L2-right",
+  "env": "basketball",
+  "group": "s6009",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.02882321547862956,
+    0.6961999764227087,
+    0.2548676825385944
+   ],
+   "box_hi": [
+    0.012961626960998174,
+    0.7379848188623364,
+    0.29665252497822214
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.018155977637624957,
+   0.7903875017287622,
+   0.25
+  ],
+  "seed": 6009,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999972,
+   "parity_sha256": "a90961eed9f9ee831a76be1a19fc5efa8f61bd14440bcacd0c79212ecf51c688"
+  },
+  "placement": {
+   "carry_decisions": [
+    61,
+    67
+   ],
+   "anchor_decision": 64,
+   "gripper_ball_offset_max_m": 0.025897045099392748
+  }
+ },
+ {
+  "id": "basketball-s6009-L3-on",
+  "env": "basketball",
+  "group": "s6009",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.0013162232797821784,
+    0.702808295216526,
+    0.2548676825385944
+   ],
+   "box_hi": [
+    0.04046861915984555,
+    0.7445931376561536,
+    0.29665252497822214
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.018155977637624957,
+   0.7903875017287622,
+   0.25
+  ],
+  "seed": 6009,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "a90961eed9f9ee831a76be1a19fc5efa8f61bd14440bcacd0c79212ecf51c688"
+  },
+  "placement": {
+   "carry_decisions": [
+    61,
+    67
+   ],
+   "anchor_decision": 64,
+   "gripper_ball_offset_max_m": 0.025897045099392748
+  }
+ },
+ {
+  "id": "basketball-s6009-L4-goal",
+  "env": "basketball",
+  "group": "s6009",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.1292761280419712,
+    0.679267351324416,
+    0.13887984959565378
+   ],
+   "box_hi": [
+    0.09296417276672127,
+    0.9015076521331084,
+    0.3611201504043462
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.018155977637624957,
+   0.7903875017287622,
+   0.25
+  ],
+  "seed": 6009,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -3.598727550925554,
+   "parity_sha256": "a90961eed9f9ee831a76be1a19fc5efa8f61bd14440bcacd0c79212ecf51c688"
+  },
+  "placement": {
+   "carry_decisions": [
+    61,
+    67
+   ],
+   "anchor_decision": 64,
+   "gripper_ball_offset_max_m": 0.025897045099392748
+  }
+ },
+ {
+  "id": "basketball-s6010-L1-left",
+  "env": "basketball",
+  "group": "s6010",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.029380353041317978,
+    0.5786616138669692,
+    0.20990095148208587
+   ],
+   "box_hi": [
+    0.012404489398309754,
+    0.6204464563065969,
+    0.2516857939217136
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0750692155883607,
+   0.8058264825821968,
+   0.25
+  ],
+  "seed": 6010,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.1979035987855706,
+   "parity_sha256": "e35b3090843adaf1a34a6b239e8ceb7ea698227637961ba763d087c7f32605a5"
+  },
+  "placement": {
+   "carry_decisions": [
+    56,
+    72
+   ],
+   "anchor_decision": 65,
+   "gripper_ball_offset_max_m": 0.020911180590894474
+  }
+ },
+ {
+  "id": "basketball-s6010-L2-left",
+  "env": "basketball",
+  "group": "s6010",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.05643566400506472,
+    0.6052237145638864,
+    0.14990095148208585
+   ],
+   "box_hi": [
+    -0.014650821565436987,
+    0.647008557003514,
+    0.19168579392171356
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0750692155883607,
+   0.8058264825821968,
+   0.25
+  ],
+  "seed": 6010,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "e35b3090843adaf1a34a6b239e8ceb7ea698227637961ba763d087c7f32605a5"
+  },
+  "placement": {
+   "carry_decisions": [
+    56,
+    72
+   ],
+   "anchor_decision": 65,
+   "gripper_ball_offset_max_m": 0.020911180590894474
+  }
+ },
+ {
+  "id": "basketball-s6010-L3-on",
+  "env": "basketball",
+  "group": "s6010",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.07938035304131796,
+    0.5886616138669692,
+    0.14990095148208585
+   ],
+   "box_hi": [
+    -0.03759551060169024,
+    0.6304464563065969,
+    0.19168579392171356
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0750692155883607,
+   0.8058264825821968,
+   0.25
+  ],
+  "seed": 6010,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "e35b3090843adaf1a34a6b239e8ceb7ea698227637961ba763d087c7f32605a5"
+  },
+  "placement": {
+   "carry_decisions": [
+    56,
+    72
+   ],
+   "anchor_decision": 65,
+   "gripper_ball_offset_max_m": 0.020911180590894474
+  }
+ },
+ {
+  "id": "basketball-s6010-L4-goal",
+  "env": "basketball",
+  "group": "s6010",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.18120350148420866,
+    0.6996921966863489,
+    0.14386571410415205
+   ],
+   "box_hi": [
+    0.031065070307487244,
+    0.9119607684780447,
+    0.35613428589584795
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   -0.0750692155883607,
+   0.8058264825821968,
+   0.25
+  ],
+  "seed": 6010,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -3.634116544881426,
+   "parity_sha256": "e35b3090843adaf1a34a6b239e8ceb7ea698227637961ba763d087c7f32605a5"
+  },
+  "placement": {
+   "carry_decisions": [
+    56,
+    72
+   ],
+   "anchor_decision": 65,
+   "gripper_ball_offset_max_m": 0.020911180590894474
+  }
+ },
+ {
+  "id": "basketball-s6016-L1-right",
+  "env": "basketball",
+  "group": "s6016",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.02835199238048137,
+    0.6660151346216725,
+    0.16717274306158483
+   ],
+   "box_hi": [
+    0.013432850059146361,
+    0.7077999770613002,
+    0.20895758550121254
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.09495836642615041,
+   0.7945527300347003,
+   0.25
+  ],
+  "seed": 6016,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.3858204334204793,
+   "parity_sha256": "02047cf97ea65d77a4ba7c7f54d0153bef3ff9ee46e93d7a4f972a512bb80253"
+  },
+  "placement": {
+   "carry_decisions": [
+    7,
+    34
+   ],
+   "anchor_decision": 19,
+   "gripper_ball_offset_max_m": 0.025398285924969687
+  }
+ },
+ {
+  "id": "basketball-s6016-L2-right",
+  "env": "basketball",
+  "group": "s6016",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.02597869170465823,
+    0.6425484368233055,
+    0.14717274306158482
+   ],
+   "box_hi": [
+    0.06776353414428596,
+    0.6843332792629332,
+    0.18895758550121253
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.09495836642615041,
+   0.7945527300347003,
+   0.25
+  ],
+  "seed": 6016,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999972,
+   "parity_sha256": "02047cf97ea65d77a4ba7c7f54d0153bef3ff9ee46e93d7a4f972a512bb80253"
+  },
+  "placement": {
+   "carry_decisions": [
+    7,
+    34
+   ],
+   "anchor_decision": 19,
+   "gripper_ball_offset_max_m": 0.025398285924969687
+  }
+ },
+ {
+  "id": "basketball-s6016-L3-on",
+  "env": "basketball",
+  "group": "s6016",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.04164800761951863,
+    0.6360151346216725,
+    0.14717274306158482
+   ],
+   "box_hi": [
+    0.08343285005914637,
+    0.6777999770613001,
+    0.18895758550121253
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.09495836642615041,
+   0.7945527300347003,
+   0.25
+  ],
+  "seed": 6016,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "02047cf97ea65d77a4ba7c7f54d0153bef3ff9ee46e93d7a4f972a512bb80253"
+  },
+  "placement": {
+   "carry_decisions": [
+    7,
+    34
+   ],
+   "anchor_decision": 19,
+   "gripper_ball_offset_max_m": 0.025398285924969687
+  }
+ },
+ {
+  "id": "basketball-s6016-L4-goal",
+  "env": "basketball",
+  "group": "s6016",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.015663024803772754,
+    0.6839313388047771,
+    0.13937860877007685
+   ],
+   "box_hi": [
+    0.20557975765607356,
+    0.9051741212646235,
+    0.36062139122992315
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.09495836642615041,
+   0.7945527300347003,
+   0.25
+  ],
+  "seed": 6016,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -2.113866964337019,
+   "parity_sha256": "02047cf97ea65d77a4ba7c7f54d0153bef3ff9ee46e93d7a4f972a512bb80253"
+  },
+  "placement": {
+   "carry_decisions": [
+    7,
+    34
+   ],
+   "anchor_decision": 19,
+   "gripper_ball_offset_max_m": 0.025398285924969687
+  }
+ },
+ {
+  "id": "basketball-s6020-L1-left",
+  "env": "basketball",
+  "group": "s6020",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.32365801957227225,
+    0.6067568359571082,
+    0.1852201997252851
+   ],
+   "box_hi": [
+    0.3654428620119,
+    0.6485416783967358,
+    0.22700504216491282
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.08122486024307007,
+   0.7706272948236625,
+   0.25
+  ],
+  "seed": 6020,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.1715714318906802,
+   "parity_sha256": "39c7970caef0464f358cdfedbc357812a37eb159aa34c60e0ff098718cd796aa"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.021875084890056264
+  }
+ },
+ {
+  "id": "basketball-s6020-L2-left",
+  "env": "basketball",
+  "group": "s6020",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.26932733548713267,
+    0.6270025155816277,
+    0.1852201997252851
+   ],
+   "box_hi": [
+    0.31111217792676044,
+    0.6687873580212553,
+    0.22700504216491282
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.08122486024307007,
+   0.7706272948236625,
+   0.25
+  ],
+  "seed": 6020,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999872,
+   "parity_sha256": "39c7970caef0464f358cdfedbc357812a37eb159aa34c60e0ff098718cd796aa"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.021875084890056264
+  }
+ },
+ {
+  "id": "basketball-s6020-L3-on",
+  "env": "basketball",
+  "group": "s6020",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.25365801957227224,
+    0.6367568359571082,
+    0.1852201997252851
+   ],
+   "box_hi": [
+    0.2954428620119,
+    0.6785416783967358,
+    0.22700504216491282
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.08122486024307007,
+   0.7706272948236625,
+   0.25
+  ],
+  "seed": 6020,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "39c7970caef0464f358cdfedbc357812a37eb159aa34c60e0ff098718cd796aa"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.021875084890056264
+  }
+ },
+ {
+  "id": "basketball-s6020-L4-goal",
+  "env": "basketball",
+  "group": "s6020",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.025873329951939666,
+    0.6635291046286528,
+    0.14290180980499026
+   ],
+   "box_hi": [
+    0.18832305043807981,
+    0.8777254850186723,
+    0.35709819019500977
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.08122486024307007,
+   0.7706272948236625,
+   0.25
+  ],
+  "seed": 6020,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -3.3812476265815303,
+   "parity_sha256": "39c7970caef0464f358cdfedbc357812a37eb159aa34c60e0ff098718cd796aa"
+  },
+  "placement": {
+   "carry_decisions": [
+    23,
+    45
+   ],
+   "anchor_decision": 35,
+   "gripper_ball_offset_max_m": 0.021875084890056264
+  }
+ },
+ {
+  "id": "basketball-s6028-L1-right",
+  "env": "basketball",
+  "group": "s6028",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.05210915457069572,
+    0.5264285918590648,
+    0.15923874157174758
+   ],
+   "box_hi": [
+    0.09389399701032346,
+    0.5682134342986924,
+    0.2010235840113753
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.07705563997049192,
+   0.7987555115194396,
+   0.25
+  ],
+  "seed": 6028,
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.004041556860242,
+   "parity_sha256": "f9c18eb8af0c43b1770b41281720256eb6bec75f62d2ba5d80898929ca100923"
+  },
+  "placement": {
+   "carry_decisions": [
+    18,
+    35
+   ],
+   "anchor_decision": 28,
+   "gripper_ball_offset_max_m": 0.028566616885286333
+  }
+ },
+ {
+  "id": "basketball-s6028-L2-right",
+  "env": "basketball",
+  "group": "s6028",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.046439838655835314,
+    0.5893258070485337,
+    0.13923874157174757
+   ],
+   "box_hi": [
+    0.08822468109546305,
+    0.6311106494881613,
+    0.18102358401137528
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.07705563997049192,
+   0.7987555115194396,
+   0.25
+  ],
+  "seed": 6028,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.2499999999999994,
+   "parity_sha256": "f9c18eb8af0c43b1770b41281720256eb6bec75f62d2ba5d80898929ca100923"
+  },
+  "placement": {
+   "carry_decisions": [
+    18,
+    35
+   ],
+   "anchor_decision": 28,
+   "gripper_ball_offset_max_m": 0.028566616885286333
+  }
+ },
+ {
+  "id": "basketball-s6028-L3-on",
+  "env": "basketball",
+  "group": "s6028",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    0.06210915457069573,
+    0.5964285918590648,
+    0.13923874157174757
+   ],
+   "box_hi": [
+    0.10389399701032347,
+    0.6382134342986925,
+    0.18102358401137528
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.07705563997049192,
+   0.7987555115194396,
+   0.25
+  ],
+  "seed": 6028,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.0,
+   "parity_sha256": "f9c18eb8af0c43b1770b41281720256eb6bec75f62d2ba5d80898929ca100923"
+  },
+  "placement": {
+   "carry_decisions": [
+    18,
+    35
+   ],
+   "anchor_decision": 28,
+   "gripper_ball_offset_max_m": 0.028566616885286333
+  }
+ },
+ {
+  "id": "basketball-s6028-L4-goal",
+  "env": "basketball",
+  "group": "s6028",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "hazard": {
+   "box_lo": [
+    -0.03673408221974789,
+    0.6849657893291998,
+    0.1362102778097602
+   ],
+   "box_hi": [
+    0.19084536216073172,
+    0.9125452337096793,
+    0.3637897221902398
+   ],
+   "step_m": 0.020892421219813866
+  },
+  "goal": [
+   0.07705563997049192,
+   0.7987555115194396,
+   0.25
+  ],
+  "seed": 6028,
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -3.699617736406978,
+   "parity_sha256": "f9c18eb8af0c43b1770b41281720256eb6bec75f62d2ba5d80898929ca100923"
+  },
+  "placement": {
+   "carry_decisions": [
+    18,
+    35
+   ],
+   "anchor_decision": 28,
+   "gripper_ball_offset_max_m": 0.028566616885286333
+  }
+ }
+]

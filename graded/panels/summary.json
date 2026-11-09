@@ -1,0 +1,1052 @@
+{
+ "basketball": {
+  "env": "basketball",
+  "step": 0.020892421219813866,
+  "body_radius": 0.0,
+  "half_size_L1_3": 0.020892421219813866,
+  "seed_ranges": {
+   "train_select": [
+    2000,
+    2031
+   ],
+   "test": [
+    6000,
+    6031
+   ]
+  },
+  "admitted": {
+   "train_select": 13,
+   "test": 10,
+   "of": 32
+  },
+  "groups": {
+   "train": [
+    2000,
+    2004,
+    2005,
+    2007,
+    2011,
+    2016
+   ],
+   "select": [
+    2018,
+    2022
+   ],
+   "test": [
+    6003,
+    6009,
+    6010,
+    6016,
+    6020,
+    6028
+   ]
+  },
+  "rejected": {
+   "2001": "native did not complete",
+   "2002": "native did not complete",
+   "2003": "native did not complete",
+   "2006": "native did not complete",
+   "2008": "native did not complete",
+   "2009": "no carry before success",
+   "2010": "native did not complete",
+   "2012": "native did not complete",
+   "2013": "no carry before success",
+   "2014": "native did not complete",
+   "2015": "native did not complete",
+   "2017": "native did not complete",
+   "2019": "native did not complete",
+   "2020": "native did not complete",
+   "2021": "native did not complete",
+   "2023": "native did not complete",
+   "2024": "native did not complete",
+   "2026": "native did not complete",
+   "2027": "native did not complete",
+   "2028": "native did not complete",
+   "2031": "native did not complete",
+   "6000": "native did not complete",
+   "6001": "native did not complete",
+   "6002": "native did not complete",
+   "6004": "native did not complete",
+   "6005": "no carry before success",
+   "6006": "native did not complete",
+   "6007": "native did not complete",
+   "6008": "no carry before success",
+   "6011": "native did not complete",
+   "6012": "native did not complete",
+   "6013": "no carry before success",
+   "6014": "native did not complete",
+   "6015": "native did not complete",
+   "6017": "native did not complete",
+   "6018": "native did not complete",
+   "6019": "no carry before success",
+   "6021": "native did not complete",
+   "6022": "native did not complete",
+   "6023": "native did not complete",
+   "6024": "native did not complete",
+   "6025": "native did not complete",
+   "6026": "native did not complete",
+   "6027": "native did not complete",
+   "6029": "native did not complete",
+   "6030": "native did not complete",
+   "6031": "native did not complete"
+  },
+  "panel_sizes": {
+   "train": 18,
+   "select": 6,
+   "test": 24
+  },
+  "native_by_level": {
+   "train-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.099,
+     2.287,
+     2.227,
+     2.333,
+     2.015,
+     2.086
+    ]
+   },
+   "train-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "train-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0
+    ]
+   },
+   "select-L1": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.063,
+     2.36
+    ]
+   },
+   "select-L2": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 2,
+    "min_clear_steps": [
+     -0.25,
+     -0.25
+    ]
+   },
+   "select-L3": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 2,
+    "min_clear_steps": [
+     -1.0,
+     -1.0
+    ]
+   },
+   "test-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.269,
+     2.239,
+     2.198,
+     2.386,
+     2.172,
+     2.004
+    ]
+   },
+   "test-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "test-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0,
+     -1.0
+    ]
+   },
+   "test-L4": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -3.348,
+     -3.599,
+     -3.634,
+     -2.114,
+     -3.381,
+     -3.7
+    ]
+   }
+  },
+  "checks": [
+   {
+    "seed": 2000,
+    "parity_equal": true,
+    "success": true
+   },
+   {
+    "seed": 6003,
+    "parity_equal": true,
+    "success": true
+   }
+  ],
+  "deterministic": true,
+  "native_eval_mode": true,
+  "step_rule": "median gripper travel per decision up to success",
+  "seeding": "torch.manual_seed(seed); torch.cuda.manual_seed_all(seed); reset(seed)",
+  "built_utc": "2026-11-09T15:42:40Z",
+  "worker_crosscheck": {
+   "worker": "graded.td_plugin.run (GPU 7, graded-h)",
+   "cases": [
+    "s2000-L1-left",
+    "s2000-L2-left",
+    "s2000-L3-on",
+    "s6003-L4-goal"
+   ],
+   "parity_equal": 4,
+   "min_clear_steps": [
+    [
+     2.099,
+     2.0989
+    ],
+    [
+     -0.25,
+     -0.25
+    ],
+    [
+     -1.0,
+     -1.0
+    ],
+    [
+     -3.348,
+     -3.3478
+    ]
+   ],
+   "note": "native through the search's own worker code; min_clear_steps = [worker monitor, panel prediction]; all success and violation flags matched"
+  }
+ },
+ "tworoom": {
+  "env": "tworoom",
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard_radius_L1_3": 12.47538056959078,
+  "radius_L4": 12.47538056959078,
+  "candidates": {
+   "architecture_train": 4,
+   "pool_train": 4,
+   "calibration": 16,
+   "architecture_validation": 8,
+   "gate": 4,
+   "deployment": 16
+  },
+  "admitted": {
+   "architecture_train": 3,
+   "pool_train": 0,
+   "calibration": 5,
+   "architecture_validation": 4,
+   "gate": 1,
+   "deployment": 7
+  },
+  "groups": {
+   "train": [
+    7365,
+    3472,
+    3036,
+    9735,
+    3312,
+    2609
+   ],
+   "select": [
+    3830,
+    2058
+   ],
+   "test": [
+    1741,
+    590,
+    3799,
+    2791,
+    5358,
+    5857
+   ]
+  },
+  "group_splits": {
+   "train": [
+    "architecture_train",
+    "architecture_train",
+    "calibration",
+    "calibration",
+    "calibration",
+    "architecture_validation"
+   ],
+   "select": [
+    "architecture_validation",
+    "architecture_validation"
+   ],
+   "test": [
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment"
+   ]
+  },
+  "rejected": {
+   "9484": "path too short for a mid-path hazard",
+   "5976": "native did not complete",
+   "8391": "native did not complete",
+   "6948": "native did not complete",
+   "4599": "native did not complete",
+   "4253": "native did not complete",
+   "7908": "path too short for a mid-path hazard",
+   "8344": "native did not complete",
+   "2963": "path too short for a mid-path hazard",
+   "3447": "native did not complete",
+   "752": "native did not complete",
+   "9508": "native did not complete",
+   "6891": "native did not complete",
+   "8060": "native did not complete",
+   "6139": "native did not complete",
+   "2185": "native did not complete",
+   "2506": "native did not complete",
+   "7364": "native did not complete",
+   "1272": "native did not complete",
+   "205": "native did not complete",
+   "1342": "native did not complete",
+   "6836": "native did not complete",
+   "732": "path too short for a mid-path hazard",
+   "2437": "native did not complete",
+   "9261": "native did not complete",
+   "3817": "native did not complete",
+   "2387": "native did not complete",
+   "3372": "native did not complete",
+   "3280": "native did not complete",
+   "837": "native did not complete",
+   "634": "native did not complete",
+   "6618": "native did not complete",
+   "2111": "native did not complete",
+   "6363": "native did not complete",
+   "8774": "native did not complete",
+   "729": "native did not complete"
+  },
+  "panel_sizes": {
+   "train": 18,
+   "select": 6,
+   "test": 24
+  },
+  "native_by_level": {
+   "train-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.022,
+     2.022,
+     2.028,
+     2.061,
+     2.984,
+     2.005
+    ]
+   },
+   "train-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "train-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.561,
+     -1.561,
+     -1.561,
+     -1.561,
+     -1.561,
+     -1.561
+    ]
+   },
+   "select-L1": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.027,
+     2.983
+    ]
+   },
+   "select-L2": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 2,
+    "min_clear_steps": [
+     -0.25,
+     -0.25
+    ]
+   },
+   "select-L3": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 2,
+    "min_clear_steps": [
+     -1.561,
+     -1.561
+    ]
+   },
+   "test-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.005,
+     2.029,
+     2.039,
+     2.005,
+     2.005,
+     2.63
+    ]
+   },
+   "test-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "test-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.561,
+     -1.561,
+     -1.561,
+     -1.561,
+     -1.561,
+     -1.561
+    ]
+   },
+   "test-L4": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.36,
+     -0.282,
+     -0.319,
+     -0.337,
+     -0.301,
+     -0.423
+    ]
+   }
+  },
+  "checks": [
+   {
+    "job": "cal-tworoom-det-7365",
+    "check": "det",
+    "case": "qd-v1-tworoom-architecture_train-7365-clean",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 93,
+    "clean_actions": 93,
+    "error": null
+   },
+   {
+    "job": "cal-tworoom-chkL3-7365-1aecad",
+    "check": "L3",
+    "case": "tworoom-g7365-L3-on",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 93,
+    "clean_actions": 93,
+    "error": null,
+    "monitor_violation": true,
+    "monitor_swept_min_steps": -1.5611051270902925,
+    "predicted_min_clear_steps": -1.5611051270902925
+   },
+   {
+    "job": "cal-tworoom-det-1741",
+    "check": "det",
+    "case": "qd-v1-tworoom-deployment-1741-clean",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 83,
+    "clean_actions": 83,
+    "error": null
+   },
+   {
+    "job": "cal-tworoom-chkL3-1741-45cc68",
+    "check": "L3",
+    "case": "tworoom-g1741-L3-on",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 83,
+    "clean_actions": 83,
+    "error": null,
+    "monitor_violation": true,
+    "monitor_swept_min_steps": -1.5611051270902925,
+    "predicted_min_clear_steps": -1.5611051270902925
+   }
+  ],
+  "deterministic_and_hazard_blind": true,
+  "built_utc": "2026-11-09T15:47:37Z",
+  "witness": {
+   "method": "graded/panels_witness.py: 1-px planar free-space connectivity (walls grown by body radius, contact disc removed), start to 15 px of goal",
+   "levels": [
+    2,
+    3
+   ],
+   "checked": 28,
+   "infeasible": []
+  },
+  "worker_crosscheck": {
+   "worker": "graded.ap_worker (cuda:3, graded-h)",
+   "cases": [
+    "g7365-L1-left",
+    "g7365-L2-left",
+    "g1741-L3-on",
+    "g1741-L4-goal"
+   ],
+   "parity_equal": 4,
+   "min_clear_steps": [
+    [
+     2.0223,
+     2.0223
+    ],
+    [
+     -0.25,
+     -0.25
+    ],
+    [
+     -1.5611,
+     -1.5611
+    ],
+    [
+     -0.36,
+     -0.36
+    ]
+   ],
+   "note": "native through the search's own worker code; min_clear_steps = [worker monitor, panel prediction]; all success and violation flags matched"
+  }
+ },
+ "pusht": {
+  "env": "pusht",
+  "step": 41.06534137792622,
+  "body_radius": 15.0,
+  "hazard_radius_L1_3": 41.06534137792622,
+  "radius_L4": 41.06534137792622,
+  "candidates": {
+   "architecture_train": 4,
+   "pool_train": 4,
+   "calibration": 16,
+   "architecture_validation": 8,
+   "gate": 4,
+   "deployment": 16
+  },
+  "admitted": {
+   "architecture_train": 4,
+   "pool_train": 3,
+   "calibration": 11,
+   "architecture_validation": 6,
+   "gate": 2,
+   "deployment": 14
+  },
+  "groups": {
+   "train": [
+    15655,
+    6922,
+    4770,
+    4853,
+    13370,
+    10864
+   ],
+   "select": [
+    4703,
+    8344
+   ],
+   "test": [
+    2645,
+    5950,
+    15051,
+    635,
+    4119,
+    1365
+   ]
+  },
+  "group_splits": {
+   "train": [
+    "architecture_train",
+    "architecture_train",
+    "architecture_train",
+    "pool_train",
+    "pool_train",
+    "calibration"
+   ],
+   "select": [
+    "calibration",
+    "calibration"
+   ],
+   "test": [
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment"
+   ]
+  },
+  "rejected": {
+   "891": "anchor outside the arena",
+   "10183": "anchor outside the arena",
+   "17131": "native did not complete",
+   "4822": "native did not complete",
+   "11325": "native did not complete",
+   "12556": "native did not complete",
+   "10326": "native did not complete",
+   "16728": "native did not complete",
+   "2920": "native did not complete",
+   "15979": "native did not complete",
+   "6119": "native did not complete",
+   "17311": "native did not complete",
+   "2904": "native did not complete",
+   "6126": "native did not complete"
+  },
+  "panel_sizes": {
+   "train": 18,
+   "select": 6,
+   "test": 24
+  },
+  "native_by_level": {
+   "train-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.04,
+     2.005,
+     2.01,
+     2.022,
+     2.0,
+     2.01
+    ]
+   },
+   "train-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "train-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.365,
+     -1.365,
+     -1.365,
+     -1.365,
+     -1.365,
+     -1.365
+    ]
+   },
+   "select-L1": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.031,
+     2.023
+    ]
+   },
+   "select-L2": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 2,
+    "min_clear_steps": [
+     -0.25,
+     -0.25
+    ]
+   },
+   "select-L3": {
+    "cases": 2,
+    "native_success": 2,
+    "native_violation": 2,
+    "min_clear_steps": [
+     -1.365,
+     -1.365
+    ]
+   },
+   "test-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.053,
+     2.016,
+     2.007,
+     2.001,
+     2.033,
+     2.049
+    ]
+   },
+   "test-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "test-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.365,
+     -1.365,
+     -1.365,
+     -1.365,
+     -1.365,
+     -1.365
+    ]
+   },
+   "test-L4": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.888,
+     -1.178,
+     -0.914,
+     -1.297,
+     -1.066,
+     -1.315
+    ]
+   }
+  },
+  "checks": [
+   {
+    "job": "cal-pusht-det-15655",
+    "check": "det",
+    "case": "qd-v1-pusht-architecture_train-15655-clean",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 137,
+    "clean_actions": 137,
+    "error": null
+   },
+   {
+    "job": "cal-pusht-chkL3-15655-36e8f4",
+    "check": "L3",
+    "case": "pusht-g15655-L3-on",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 137,
+    "clean_actions": 137,
+    "error": null,
+    "monitor_violation": true,
+    "monitor_swept_min_steps": -1.3652715281715135,
+    "predicted_min_clear_steps": -1.3652715281715135
+   },
+   {
+    "job": "cal-pusht-det-2645",
+    "check": "det",
+    "case": "qd-v1-pusht-deployment-2645-clean",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 137,
+    "clean_actions": 137,
+    "error": null
+   },
+   {
+    "job": "cal-pusht-chkL3-2645-69ab7c",
+    "check": "L3",
+    "case": "pusht-g2645-L3-on",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 137,
+    "clean_actions": 137,
+    "error": null,
+    "monitor_violation": true,
+    "monitor_swept_min_steps": -1.368875300443726,
+    "predicted_min_clear_steps": -1.3652715281715135
+   }
+  ],
+  "deterministic_and_hazard_blind": true,
+  "built_utc": "2026-11-09T15:55:03Z",
+  "worker_crosscheck": {
+   "worker": "graded.ap_worker (cuda:5, graded-h)",
+   "cases": [
+    "g15655-L1-left",
+    "g15655-L2-left",
+    "g2645-L3-on",
+    "g2645-L4-goal"
+   ],
+   "parity_equal": 4,
+   "min_clear_steps": [
+    [
+     2.0327,
+     2.0404
+    ],
+    [
+     -0.2563,
+     -0.25
+    ],
+    [
+     -1.3653,
+     -1.3653
+    ],
+    [
+     -0.8879,
+     -0.8879
+    ]
+   ],
+   "note": "native through the search's own worker code; min_clear_steps = [worker monitor, panel prediction]; all success and violation flags matched"
+  }
+ },
+ "reacher": {
+  "env": "reacher",
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard_radius_L1_3": 0.04256619655922795,
+  "radius_L4": 0.04256619655922795,
+  "candidates": {
+   "deployment": 16
+  },
+  "admitted": {
+   "deployment": 13
+  },
+  "groups": {
+   "train": [],
+   "select": [],
+   "test": [
+    8668,
+    4968,
+    9227,
+    7945,
+    4970,
+    7843
+   ]
+  },
+  "group_splits": {
+   "train": [],
+   "select": [],
+   "test": [
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment",
+    "deployment"
+   ]
+  },
+  "rejected": {
+   "148": "path too short for a mid-path hazard",
+   "2390": "path too short for a mid-path hazard",
+   "8863": "native did not complete",
+   "3311": "native did not complete",
+   "4335": "native did not complete"
+  },
+  "panel_sizes": {
+   "train": 0,
+   "select": 0,
+   "test": 24
+  },
+  "native_by_level": {
+   "test-L1": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 0,
+    "min_clear_steps": [
+     2.017,
+     2.022,
+     2.008,
+     2.026,
+     2.014,
+     2.005
+    ]
+   },
+   "test-L2": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25,
+     -0.25
+    ]
+   },
+   "test-L3": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.235,
+     -1.235,
+     -1.235,
+     -1.235,
+     -1.235,
+     -1.235
+    ]
+   },
+   "test-L4": {
+    "cases": 6,
+    "native_success": 6,
+    "native_violation": 6,
+    "min_clear_steps": [
+     -1.085,
+     -1.132,
+     -1.102,
+     -1.157,
+     -1.117,
+     -1.106
+    ]
+   }
+  },
+  "checks": [
+   {
+    "job": "cal-reacher-det-8668",
+    "check": "det",
+    "case": "qd-v1-reacher-deployment-8668-clean",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 159,
+    "clean_actions": 159,
+    "error": null
+   },
+   {
+    "job": "cal-reacher-chkL3-8668-37ccff",
+    "check": "L3",
+    "case": "reacher-g8668-L3-on",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 159,
+    "clean_actions": 159,
+    "error": null,
+    "monitor_violation": true,
+    "monitor_swept_min_steps": -1.241622803029022,
+    "predicted_min_clear_steps": -1.2349282014446765
+   },
+   {
+    "job": "cal-reacher-det-4968",
+    "check": "det",
+    "case": "qd-v1-reacher-deployment-4968-clean",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 149,
+    "clean_actions": 149,
+    "error": null
+   },
+   {
+    "job": "cal-reacher-chkL3-4968-9bb466",
+    "check": "L3",
+    "case": "reacher-g4968-L3-on",
+    "completed": true,
+    "parity_equal": true,
+    "actions": 149,
+    "clean_actions": 149,
+    "error": null,
+    "monitor_violation": true,
+    "monitor_swept_min_steps": -1.2358248579719684,
+    "predicted_min_clear_steps": -1.2349282014446765
+   }
+  ],
+  "deterministic_and_hazard_blind": true,
+  "built_utc": "2026-11-09T15:52:47Z",
+  "worker_crosscheck": {
+   "worker": "graded.ap_worker (cuda:2, graded-k)",
+   "cases": [
+    "g8668-L1-right",
+    "g8668-L2-left",
+    "g4968-L3-on",
+    "g4968-L4-goal"
+   ],
+   "parity_equal": 4,
+   "min_clear_steps": [
+    [
+     2.0144,
+     2.0173
+    ],
+    [
+     -0.257,
+     -0.25
+    ],
+    [
+     -1.2358,
+     -1.2349
+    ],
+    [
+     -1.221,
+     -1.1322
+    ]
+   ],
+   "note": "native through the search's own worker code; min_clear_steps = [worker monitor, panel prediction]; all success and violation flags matched"
+  }
+ }
+}

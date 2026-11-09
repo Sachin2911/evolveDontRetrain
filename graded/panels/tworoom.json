@@ -1,0 +1,2930 @@
+[
+ {
+  "id": "tworoom-g7365-L1-left",
+  "env": "tworoom",
+  "group": "g7365",
+  "level": 1,
+  "split": "train",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    184.79999999999998,
+    127.39999999999999,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   94.5,
+   70.20993041992188
+  ],
+  "ap_case": {
+   "id": "tworoom-g7365-L1-left",
+   "row": {
+    "episode": 7365,
+    "global_start": 677269,
+    "global_goal": 677369,
+    "horizon": 100,
+    "environment_seed": 968909031,
+    "optimizer_seed": 410114498,
+    "record_id": "qd-v1-tworoom-architecture_train-7365",
+    "split": "architecture_train"
+   },
+   "source_group": 7365,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     184.79999999999998,
+     127.39999999999999,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.022267325868321,
+   "actions": 93,
+   "parity_sha256": "cf9c610734a2331b1dcc510b6ff7644b8100d868b1ed7b453aea1e56a3d39893",
+   "clean_job": "cal-tworoom-nat-7365"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 38,
+   "anchor_arc_fraction": 0.5116225930535444,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2463549128015408
+  }
+ },
+ {
+  "id": "tworoom-g7365-L2-left",
+  "env": "tworoom",
+  "group": "g7365",
+  "level": 2,
+  "split": "train",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    154.57635440043995,
+    139.59467328987398,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   94.5,
+   70.20993041992188
+  ],
+  "ap_case": {
+   "id": "tworoom-g7365-L2-left",
+   "row": {
+    "episode": 7365,
+    "global_start": 677269,
+    "global_goal": 677369,
+    "horizon": 100,
+    "environment_seed": 968909031,
+    "optimizer_seed": 410114498,
+    "record_id": "qd-v1-tworoom-architecture_train-7365",
+    "split": "architecture_train"
+   },
+   "source_group": 7365,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     154.57635440043995,
+     139.59467328987398,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.2499999999999995,
+   "actions": 93,
+   "parity_sha256": "cf9c610734a2331b1dcc510b6ff7644b8100d868b1ed7b453aea1e56a3d39893",
+   "clean_job": "cal-tworoom-nat-7365"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 38,
+   "anchor_arc_fraction": 0.5116225930535444,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2463549128015408
+  }
+ },
+ {
+  "id": "tworoom-g7365-L3-on",
+  "env": "tworoom",
+  "group": "g7365",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    137.17355346679688,
+    137.21426391601562,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   94.5,
+   70.20993041992188
+  ],
+  "ap_case": {
+   "id": "tworoom-g7365-L3-on",
+   "row": {
+    "episode": 7365,
+    "global_start": 677269,
+    "global_goal": 677369,
+    "horizon": 100,
+    "environment_seed": 968909031,
+    "optimizer_seed": 410114498,
+    "record_id": "qd-v1-tworoom-architecture_train-7365",
+    "split": "architecture_train"
+   },
+   "source_group": 7365,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     137.17355346679688,
+     137.21426391601562,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 93,
+   "parity_sha256": "cf9c610734a2331b1dcc510b6ff7644b8100d868b1ed7b453aea1e56a3d39893",
+   "clean_job": "cal-tworoom-nat-7365"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 38,
+   "anchor_arc_fraction": 0.5116225930535444,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2463549128015408
+  }
+ },
+ {
+  "id": "tworoom-g3472-L1-right",
+  "env": "tworoom",
+  "group": "g3472",
+  "level": 1,
+  "split": "train",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    79.8,
+    120.39999999999999,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   114.3477783203125,
+   62.289268493652344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3472-L1-right",
+   "row": {
+    "episode": 3472,
+    "global_start": 318927,
+    "global_goal": 319027,
+    "horizon": 100,
+    "environment_seed": 1664085002,
+    "optimizer_seed": 1395241611,
+    "record_id": "qd-v1-tworoom-architecture_train-3472",
+    "split": "architecture_train"
+   },
+   "source_group": 3472,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     79.8,
+     120.39999999999999,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0222316637432654,
+   "actions": 86,
+   "parity_sha256": "3e9f71be67530bf06f2b17c75368f0dfdc7857dc2764347a46326aa797bcc573",
+   "clean_job": "cal-tworoom-nat-3472"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47068623761806694,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.0860561432979245
+  }
+ },
+ {
+  "id": "tworoom-g3472-L2-right",
+  "env": "tworoom",
+  "group": "g3472",
+  "level": 2,
+  "split": "train",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    108.14416442795618,
+    119.69009277294069,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   114.3477783203125,
+   62.289268493652344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3472-L2-right",
+   "row": {
+    "episode": 3472,
+    "global_start": 318927,
+    "global_goal": 319027,
+    "horizon": 100,
+    "environment_seed": 1664085002,
+    "optimizer_seed": 1395241611,
+    "record_id": "qd-v1-tworoom-architecture_train-3472",
+    "split": "architecture_train"
+   },
+   "source_group": 3472,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     108.14416442795618,
+     119.69009277294069,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999978,
+   "actions": 86,
+   "parity_sha256": "3e9f71be67530bf06f2b17c75368f0dfdc7857dc2764347a46326aa797bcc573",
+   "clean_job": "cal-tworoom-nat-3472"
+  },
+  "placement": {
+   "blocked": 0.34731543624161076,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47068623761806694,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.0860561432979245
+  }
+ },
+ {
+  "id": "tworoom-g3472-L3-on",
+  "env": "tworoom",
+  "group": "g3472",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    124.5,
+    119.84140014648438,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   114.3477783203125,
+   62.289268493652344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3472-L3-on",
+   "row": {
+    "episode": 3472,
+    "global_start": 318927,
+    "global_goal": 319027,
+    "horizon": 100,
+    "environment_seed": 1664085002,
+    "optimizer_seed": 1395241611,
+    "record_id": "qd-v1-tworoom-architecture_train-3472",
+    "split": "architecture_train"
+   },
+   "source_group": 3472,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     124.5,
+     119.84140014648438,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 86,
+   "parity_sha256": "3e9f71be67530bf06f2b17c75368f0dfdc7857dc2764347a46326aa797bcc573",
+   "clean_job": "cal-tworoom-nat-3472"
+  },
+  "placement": {
+   "blocked": 0.26943506936085004,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47068623761806694,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.0860561432979245
+  }
+ },
+ {
+  "id": "tworoom-g3036-L1-left",
+  "env": "tworoom",
+  "group": "g3036",
+  "level": 1,
+  "split": "train",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    173.6,
+    103.6,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   132.992431640625,
+   58.15113067626953
+  ],
+  "ap_case": {
+   "id": "tworoom-g3036-L1-left",
+   "row": {
+    "episode": 3036,
+    "global_start": 279128,
+    "global_goal": 279228,
+    "horizon": 100,
+    "environment_seed": 308255881,
+    "optimizer_seed": 132912853,
+    "record_id": "qd-v1-tworoom-calibration-3036",
+    "split": "calibration"
+   },
+   "source_group": 3036,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     173.6,
+     103.6,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.028098380994898,
+   "actions": 88,
+   "parity_sha256": "fc5a8c5cf887388f19f7bfe9fb21f760aecbdfee19bd74e5dfce65963c6fe6b0",
+   "clean_job": "cal-tworoom-nat-3036"
+  },
+  "placement": {
+   "blocked": 0.0013226902335440327,
+   "anchor_index": 49,
+   "anchor_arc_fraction": 0.5025589424374538,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.1717373176148822
+  }
+ },
+ {
+  "id": "tworoom-g3036-L2-left",
+  "env": "tworoom",
+  "group": "g3036",
+  "level": 2,
+  "split": "train",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    157.97947069532756,
+    128.61419604597313,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   132.992431640625,
+   58.15113067626953
+  ],
+  "ap_case": {
+   "id": "tworoom-g3036-L2-left",
+   "row": {
+    "episode": 3036,
+    "global_start": 279128,
+    "global_goal": 279228,
+    "horizon": 100,
+    "environment_seed": 308255881,
+    "optimizer_seed": 132912853,
+    "record_id": "qd-v1-tworoom-calibration-3036",
+    "split": "calibration"
+   },
+   "source_group": 3036,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     157.97947069532756,
+     128.61419604597313,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999978,
+   "actions": 88,
+   "parity_sha256": "fc5a8c5cf887388f19f7bfe9fb21f760aecbdfee19bd74e5dfce65963c6fe6b0",
+   "clean_job": "cal-tworoom-nat-3036"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 49,
+   "anchor_arc_fraction": 0.5025589424374538,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.1717373176148822
+  }
+ },
+ {
+  "id": "tworoom-g3036-L3-on",
+  "env": "tworoom",
+  "group": "g3036",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    127.91339874267578,
+    126.64736938476562,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   132.992431640625,
+   58.15113067626953
+  ],
+  "ap_case": {
+   "id": "tworoom-g3036-L3-on",
+   "row": {
+    "episode": 3036,
+    "global_start": 279128,
+    "global_goal": 279228,
+    "horizon": 100,
+    "environment_seed": 308255881,
+    "optimizer_seed": 132912853,
+    "record_id": "qd-v1-tworoom-calibration-3036",
+    "split": "calibration"
+   },
+   "source_group": 3036,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     127.91339874267578,
+     126.64736938476562,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 88,
+   "parity_sha256": "fc5a8c5cf887388f19f7bfe9fb21f760aecbdfee19bd74e5dfce65963c6fe6b0",
+   "clean_job": "cal-tworoom-nat-3036"
+  },
+  "placement": {
+   "blocked": 0.17680588373950826,
+   "anchor_index": 49,
+   "anchor_arc_fraction": 0.5025589424374538,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.1717373176148822
+  }
+ },
+ {
+  "id": "tworoom-g9735-L1-right",
+  "env": "tworoom",
+  "group": "g9735",
+  "level": 1,
+  "split": "train",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    163.79999999999998,
+    88.19999999999999,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   85.08390808105469,
+   78.94712829589844
+  ],
+  "ap_case": {
+   "id": "tworoom-g9735-L1-right",
+   "row": {
+    "episode": 9735,
+    "global_start": 896220,
+    "global_goal": 896320,
+    "horizon": 100,
+    "environment_seed": 524361308,
+    "optimizer_seed": 1652081233,
+    "record_id": "qd-v1-tworoom-calibration-9735",
+    "split": "calibration"
+   },
+   "source_group": 9735,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     163.79999999999998,
+     88.19999999999999,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.060958933527022,
+   "actions": 85,
+   "parity_sha256": "d7b25e8d699c80ee67d437f31ebe6b537b05c881199764f42110ef1aa15ec162",
+   "clean_job": "cal-tworoom-nat-9735"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 50,
+   "anchor_arc_fraction": 0.5822965113880646,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2693126379472548
+  }
+ },
+ {
+  "id": "tworoom-g9735-L2-right",
+  "env": "tworoom",
+  "group": "g9735",
+  "level": 2,
+  "split": "train",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    159.92893309349475,
+    58.53260524019373,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   85.08390808105469,
+   78.94712829589844
+  ],
+  "ap_case": {
+   "id": "tworoom-g9735-L2-right",
+   "row": {
+    "episode": 9735,
+    "global_start": 896220,
+    "global_goal": 896320,
+    "horizon": 100,
+    "environment_seed": 524361308,
+    "optimizer_seed": 1652081233,
+    "record_id": "qd-v1-tworoom-calibration-9735",
+    "split": "calibration"
+   },
+   "source_group": 9735,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     159.92893309349475,
+     58.53260524019373,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999978,
+   "actions": 85,
+   "parity_sha256": "d7b25e8d699c80ee67d437f31ebe6b537b05c881199764f42110ef1aa15ec162",
+   "clean_job": "cal-tworoom-nat-9735"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 50,
+   "anchor_arc_fraction": 0.5822965113880646,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2693126379472548
+  }
+ },
+ {
+  "id": "tworoom-g9735-L3-on",
+  "env": "tworoom",
+  "group": "g9735",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    130.65103149414062,
+    36.18579864501953,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   85.08390808105469,
+   78.94712829589844
+  ],
+  "ap_case": {
+   "id": "tworoom-g9735-L3-on",
+   "row": {
+    "episode": 9735,
+    "global_start": 896220,
+    "global_goal": 896320,
+    "horizon": 100,
+    "environment_seed": 524361308,
+    "optimizer_seed": 1652081233,
+    "record_id": "qd-v1-tworoom-calibration-9735",
+    "split": "calibration"
+   },
+   "source_group": 9735,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     130.65103149414062,
+     36.18579864501953,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 85,
+   "parity_sha256": "d7b25e8d699c80ee67d437f31ebe6b537b05c881199764f42110ef1aa15ec162",
+   "clean_job": "cal-tworoom-nat-9735"
+  },
+  "placement": {
+   "blocked": 0.0436241610738255,
+   "anchor_index": 50,
+   "anchor_arc_fraction": 0.5822965113880646,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2693126379472548
+  }
+ },
+ {
+  "id": "tworoom-g3312-L1-left",
+  "env": "tworoom",
+  "group": "g3312",
+  "level": 1,
+  "split": "train",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    88.19999999999999,
+    99.39999999999999,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   139.54066467285156,
+   76.78890991210938
+  ],
+  "ap_case": {
+   "id": "tworoom-g3312-L1-left",
+   "row": {
+    "episode": 3312,
+    "global_start": 304336,
+    "global_goal": 304436,
+    "horizon": 100,
+    "environment_seed": 424001587,
+    "optimizer_seed": 160665517,
+    "record_id": "qd-v1-tworoom-calibration-3312",
+    "split": "calibration"
+   },
+   "source_group": 3312,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     88.19999999999999,
+     99.39999999999999,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.9841858770729988,
+   "actions": 70,
+   "parity_sha256": "85300b3e0eb01e12ba3e6b39264deb19457b0bd1386d4f8a9f2e2ecd0d06f2f8",
+   "clean_job": "cal-tworoom-nat-3312"
+  },
+  "placement": {
+   "blocked": 0.010572343795475371,
+   "anchor_index": 26,
+   "anchor_arc_fraction": 0.3865924486317398,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2798617825002765
+  }
+ },
+ {
+  "id": "tworoom-g3312-L2-left",
+  "env": "tworoom",
+  "group": "g3312",
+  "level": 2,
+  "split": "train",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    181.6298824010084,
+    95.94974401938642,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   139.54066467285156,
+   76.78890991210938
+  ],
+  "ap_case": {
+   "id": "tworoom-g3312-L2-left",
+   "row": {
+    "episode": 3312,
+    "global_start": 304336,
+    "global_goal": 304436,
+    "horizon": 100,
+    "environment_seed": 424001587,
+    "optimizer_seed": 160665517,
+    "record_id": "qd-v1-tworoom-calibration-3312",
+    "split": "calibration"
+   },
+   "source_group": 3312,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     181.6298824010084,
+     95.94974401938642,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999922,
+   "actions": 70,
+   "parity_sha256": "85300b3e0eb01e12ba3e6b39264deb19457b0bd1386d4f8a9f2e2ecd0d06f2f8",
+   "clean_job": "cal-tworoom-nat-3312"
+  },
+  "placement": {
+   "blocked": 0.0013226902335440327,
+   "anchor_index": 26,
+   "anchor_arc_fraction": 0.3865924486317398,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2798617825002765
+  }
+ },
+ {
+  "id": "tworoom-g3312-L3-on",
+  "env": "tworoom",
+  "group": "g3312",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    155.0156707763672,
+    148.51063537597656,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   139.54066467285156,
+   76.78890991210938
+  ],
+  "ap_case": {
+   "id": "tworoom-g3312-L3-on",
+   "row": {
+    "episode": 3312,
+    "global_start": 304336,
+    "global_goal": 304436,
+    "horizon": 100,
+    "environment_seed": 424001587,
+    "optimizer_seed": 160665517,
+    "record_id": "qd-v1-tworoom-calibration-3312",
+    "split": "calibration"
+   },
+   "source_group": 3312,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     155.0156707763672,
+     148.51063537597656,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 70,
+   "parity_sha256": "85300b3e0eb01e12ba3e6b39264deb19457b0bd1386d4f8a9f2e2ecd0d06f2f8",
+   "clean_job": "cal-tworoom-nat-3312"
+  },
+  "placement": {
+   "blocked": 0.004679588753767394,
+   "anchor_index": 26,
+   "anchor_arc_fraction": 0.3865924486317398,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2798617825002765
+  }
+ },
+ {
+  "id": "tworoom-g2609-L1-right",
+  "env": "tworoom",
+  "group": "g2609",
+  "level": 1,
+  "split": "train",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    37.8,
+    40.599999999999994,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   105.98744201660156,
+   61.127891540527344
+  ],
+  "ap_case": {
+   "id": "tworoom-g2609-L1-right",
+   "row": {
+    "episode": 2609,
+    "global_start": 239562,
+    "global_goal": 239662,
+    "horizon": 100,
+    "environment_seed": 2001819064,
+    "optimizer_seed": 1046847018,
+    "record_id": "qd-v1-tworoom-architecture_validation-2609",
+    "split": "architecture_validation"
+   },
+   "source_group": 2609,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     37.8,
+     40.599999999999994,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0052844853942124,
+   "actions": 53,
+   "parity_sha256": "c799d4d1b442a9f248c0337112edf68ba187edfb521eefce41c22f22b5072a55",
+   "clean_job": "cal-tworoom-nat-2609"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 17,
+   "anchor_arc_fraction": 0.40824086484968714,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.047197277872956
+  }
+ },
+ {
+  "id": "tworoom-g2609-L2-right",
+  "env": "tworoom",
+  "group": "g2609",
+  "level": 2,
+  "split": "train",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    36.13842006304709,
+    89.48354315163581,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   105.98744201660156,
+   61.127891540527344
+  ],
+  "ap_case": {
+   "id": "tworoom-g2609-L2-right",
+   "row": {
+    "episode": 2609,
+    "global_start": 239562,
+    "global_goal": 239662,
+    "horizon": 100,
+    "environment_seed": 2001819064,
+    "optimizer_seed": 1046847018,
+    "record_id": "qd-v1-tworoom-architecture_validation-2609",
+    "split": "architecture_validation"
+   },
+   "source_group": 2609,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     36.13842006304709,
+     89.48354315163581,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999978,
+   "actions": 53,
+   "parity_sha256": "c799d4d1b442a9f248c0337112edf68ba187edfb521eefce41c22f22b5072a55",
+   "clean_job": "cal-tworoom-nat-2609"
+  },
+  "placement": {
+   "blocked": 0.003001139493655658,
+   "anchor_index": 17,
+   "anchor_arc_fraction": 0.40824086484968714,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.047197277872956
+  }
+ },
+ {
+  "id": "tworoom-g2609-L3-on",
+  "env": "tworoom",
+  "group": "g2609",
+  "level": 3,
+  "split": "train",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    52.41545867919922,
+    91.0942153930664,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   105.98744201660156,
+   61.127891540527344
+  ],
+  "ap_case": {
+   "id": "tworoom-g2609-L3-on",
+   "row": {
+    "episode": 2609,
+    "global_start": 239562,
+    "global_goal": 239662,
+    "horizon": 100,
+    "environment_seed": 2001819064,
+    "optimizer_seed": 1046847018,
+    "record_id": "qd-v1-tworoom-architecture_validation-2609",
+    "split": "architecture_validation"
+   },
+   "source_group": 2609,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     52.41545867919922,
+     91.0942153930664,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 53,
+   "parity_sha256": "c799d4d1b442a9f248c0337112edf68ba187edfb521eefce41c22f22b5072a55",
+   "clean_job": "cal-tworoom-nat-2609"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 17,
+   "anchor_arc_fraction": 0.40824086484968714,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.047197277872956
+  }
+ },
+ {
+  "id": "tworoom-g3830-L1-left",
+  "env": "tworoom",
+  "group": "g3830",
+  "level": 1,
+  "split": "select",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    135.79999999999998,
+    187.6,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   151.7935028076172,
+   33.20832061767578
+  ],
+  "ap_case": {
+   "id": "tworoom-g3830-L1-left",
+   "row": {
+    "episode": 3830,
+    "global_start": 351881,
+    "global_goal": 351981,
+    "horizon": 100,
+    "environment_seed": 1603187117,
+    "optimizer_seed": 189614797,
+    "record_id": "qd-v1-tworoom-architecture_validation-3830",
+    "split": "architecture_validation"
+   },
+   "source_group": 3830,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     135.79999999999998,
+     187.6,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0272215181098314,
+   "actions": 96,
+   "parity_sha256": "4141773c8b548ab797ba0d5accf40de2c48de09362f69cd18c2433ece4197b4e",
+   "clean_job": "cal-tworoom-nat-3830"
+  },
+  "placement": {
+   "blocked": 0.010572343795475371,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5032253428186012,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.1959197216752278
+  }
+ },
+ {
+  "id": "tworoom-g3830-L2-left",
+  "env": "tworoom",
+  "group": "g3830",
+  "level": 2,
+  "split": "select",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    160.6345292417777,
+    104.95072989242391,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   151.7935028076172,
+   33.20832061767578
+  ],
+  "ap_case": {
+   "id": "tworoom-g3830-L2-left",
+   "row": {
+    "episode": 3830,
+    "global_start": 351881,
+    "global_goal": 351981,
+    "horizon": 100,
+    "environment_seed": 1603187117,
+    "optimizer_seed": 189614797,
+    "record_id": "qd-v1-tworoom-architecture_validation-3830",
+    "split": "architecture_validation"
+   },
+   "source_group": 3830,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     160.6345292417777,
+     104.95072989242391,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999978,
+   "actions": 96,
+   "parity_sha256": "4141773c8b548ab797ba0d5accf40de2c48de09362f69cd18c2433ece4197b4e",
+   "clean_job": "cal-tworoom-nat-3830"
+  },
+  "placement": {
+   "blocked": 0.0004834656034881091,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5032253428186012,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.1959197216752278
+  }
+ },
+ {
+  "id": "tworoom-g3830-L3-on",
+  "env": "tworoom",
+  "group": "g3830",
+  "level": 3,
+  "split": "select",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    129.65328979492188,
+    99.59215545654297,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   151.7935028076172,
+   33.20832061767578
+  ],
+  "ap_case": {
+   "id": "tworoom-g3830-L3-on",
+   "row": {
+    "episode": 3830,
+    "global_start": 351881,
+    "global_goal": 351981,
+    "horizon": 100,
+    "environment_seed": 1603187117,
+    "optimizer_seed": 189614797,
+    "record_id": "qd-v1-tworoom-architecture_validation-3830",
+    "split": "architecture_validation"
+   },
+   "source_group": 3830,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     129.65328979492188,
+     99.59215545654297,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 96,
+   "parity_sha256": "4141773c8b548ab797ba0d5accf40de2c48de09362f69cd18c2433ece4197b4e",
+   "clean_job": "cal-tworoom-nat-3830"
+  },
+  "placement": {
+   "blocked": 0.13062620279912204,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5032253428186012,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.1959197216752278
+  }
+ },
+ {
+  "id": "tworoom-g2058-L1-right",
+  "env": "tworoom",
+  "group": "g2058",
+  "level": 1,
+  "split": "select",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    88.19999999999999,
+    103.6,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   134.14772033691406,
+   56.33615493774414
+  ],
+  "ap_case": {
+   "id": "tworoom-g2058-L1-right",
+   "row": {
+    "episode": 2058,
+    "global_start": 189082,
+    "global_goal": 189182,
+    "horizon": 100,
+    "environment_seed": 1658804276,
+    "optimizer_seed": 1993859527,
+    "record_id": "qd-v1-tworoom-architecture_validation-2058",
+    "split": "architecture_validation"
+   },
+   "source_group": 2058,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     88.19999999999999,
+     103.6,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.982916749463337,
+   "actions": 71,
+   "parity_sha256": "68f3d9811ca73d78e10d02db732b1b682e993d5a1bccc63cfc06bff201b4b157",
+   "clean_job": "cal-tworoom-nat-2058"
+  },
+  "placement": {
+   "blocked": 0.010572343795475371,
+   "anchor_index": 33,
+   "anchor_arc_fraction": 0.5053639951959605,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.266471101958563
+  }
+ },
+ {
+  "id": "tworoom-g2058-L2-right",
+  "env": "tworoom",
+  "group": "g2058",
+  "level": 2,
+  "split": "select",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    172.83103787797612,
+    145.89004492052314,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   134.14772033691406,
+   56.33615493774414
+  ],
+  "ap_case": {
+   "id": "tworoom-g2058-L2-right",
+   "row": {
+    "episode": 2058,
+    "global_start": 189082,
+    "global_goal": 189182,
+    "horizon": 100,
+    "environment_seed": 1658804276,
+    "optimizer_seed": 1993859527,
+    "record_id": "qd-v1-tworoom-architecture_validation-2058",
+    "split": "architecture_validation"
+   },
+   "source_group": 2058,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     172.83103787797612,
+     145.89004492052314,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999895,
+   "actions": 71,
+   "parity_sha256": "68f3d9811ca73d78e10d02db732b1b682e993d5a1bccc63cfc06bff201b4b157",
+   "clean_job": "cal-tworoom-nat-2058"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 33,
+   "anchor_arc_fraction": 0.5053639951959605,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.266471101958563
+  }
+ },
+ {
+  "id": "tworoom-g2058-L3-on",
+  "env": "tworoom",
+  "group": "g2058",
+  "level": 3,
+  "split": "select",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    184.01925659179688,
+    133.207275390625,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   134.14772033691406,
+   56.33615493774414
+  ],
+  "ap_case": {
+   "id": "tworoom-g2058-L3-on",
+   "row": {
+    "episode": 2058,
+    "global_start": 189082,
+    "global_goal": 189182,
+    "horizon": 100,
+    "environment_seed": 1658804276,
+    "optimizer_seed": 1993859527,
+    "record_id": "qd-v1-tworoom-architecture_validation-2058",
+    "split": "architecture_validation"
+   },
+   "source_group": 2058,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     184.01925659179688,
+     133.207275390625,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 71,
+   "parity_sha256": "68f3d9811ca73d78e10d02db732b1b682e993d5a1bccc63cfc06bff201b4b157",
+   "clean_job": "cal-tworoom-nat-2058"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 33,
+   "anchor_arc_fraction": 0.5053639951959605,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.266471101958563
+  }
+ },
+ {
+  "id": "tworoom-g1741-L1-left",
+  "env": "tworoom",
+  "group": "g1741",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    158.2,
+    84.0,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   133.31607055664062,
+   101.44410705566406
+  ],
+  "ap_case": {
+   "id": "tworoom-g1741-L1-left",
+   "row": {
+    "episode": 1741,
+    "global_start": 159767,
+    "global_goal": 159867,
+    "horizon": 100,
+    "environment_seed": 663665294,
+    "optimizer_seed": 991729296,
+    "record_id": "qd-v1-tworoom-deployment-1741",
+    "split": "deployment"
+   },
+   "source_group": 1741,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     158.2,
+     84.0,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.004594979360264,
+   "actions": 83,
+   "parity_sha256": "21776d10f99a8f2e17d1f82056891433aaae6f92d7688324a86442dda5f39b8d",
+   "clean_job": "cal-tworoom-nat-1741"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5050609065759074,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2011401332872058
+  }
+ },
+ {
+  "id": "tworoom-g1741-L2-left",
+  "env": "tworoom",
+  "group": "g1741",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    179.2630165731964,
+    137.85464483528645,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   133.31607055664062,
+   101.44410705566406
+  ],
+  "ap_case": {
+   "id": "tworoom-g1741-L2-left",
+   "row": {
+    "episode": 1741,
+    "global_start": 159767,
+    "global_goal": 159867,
+    "horizon": 100,
+    "environment_seed": 663665294,
+    "optimizer_seed": 991729296,
+    "record_id": "qd-v1-tworoom-deployment-1741",
+    "split": "deployment"
+   },
+   "source_group": 1741,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     179.2630165731964,
+     137.85464483528645,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999895,
+   "actions": 83,
+   "parity_sha256": "21776d10f99a8f2e17d1f82056891433aaae6f92d7688324a86442dda5f39b8d",
+   "clean_job": "cal-tworoom-nat-1741"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5050609065759074,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2011401332872058
+  }
+ },
+ {
+  "id": "tworoom-g1741-L3-on",
+  "env": "tworoom",
+  "group": "g1741",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    151.91571044921875,
+    148.91587829589844,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   133.31607055664062,
+   101.44410705566406
+  ],
+  "ap_case": {
+   "id": "tworoom-g1741-L3-on",
+   "row": {
+    "episode": 1741,
+    "global_start": 159767,
+    "global_goal": 159867,
+    "horizon": 100,
+    "environment_seed": 663665294,
+    "optimizer_seed": 991729296,
+    "record_id": "qd-v1-tworoom-deployment-1741",
+    "split": "deployment"
+   },
+   "source_group": 1741,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     151.91571044921875,
+     148.91587829589844,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 83,
+   "parity_sha256": "21776d10f99a8f2e17d1f82056891433aaae6f92d7688324a86442dda5f39b8d",
+   "clean_job": "cal-tworoom-nat-1741"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5050609065759074,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2011401332872058
+  }
+ },
+ {
+  "id": "tworoom-g1741-L4-goal",
+  "env": "tworoom",
+  "group": "g1741",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    133.31607055664062,
+    101.44410705566406,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   133.31607055664062,
+   101.44410705566406
+  ],
+  "ap_case": {
+   "id": "tworoom-g1741-L4-goal",
+   "row": {
+    "episode": 1741,
+    "global_start": 159767,
+    "global_goal": 159867,
+    "horizon": 100,
+    "environment_seed": 663665294,
+    "optimizer_seed": 991729296,
+    "record_id": "qd-v1-tworoom-deployment-1741",
+    "split": "deployment"
+   },
+   "source_group": 1741,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     133.31607055664062,
+     101.44410705566406,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.3599649938030867,
+   "actions": 83,
+   "parity_sha256": "21776d10f99a8f2e17d1f82056891433aaae6f92d7688324a86442dda5f39b8d",
+   "clean_job": "cal-tworoom-nat-1741"
+  },
+  "placement": {
+   "blocked": 0.05090252216631714,
+   "anchor_index": 40,
+   "anchor_arc_fraction": 0.5050609065759074,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2011401332872058
+  }
+ },
+ {
+  "id": "tworoom-g0590-L1-right",
+  "env": "tworoom",
+  "group": "g0590",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    137.2,
+    93.8,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   109.16897583007812,
+   62.42732620239258
+  ],
+  "ap_case": {
+   "id": "tworoom-g0590-L1-right",
+   "row": {
+    "episode": 590,
+    "global_start": 54100,
+    "global_goal": 54200,
+    "horizon": 100,
+    "environment_seed": 1383874460,
+    "optimizer_seed": 1457737509,
+    "record_id": "qd-v1-tworoom-deployment-590",
+    "split": "deployment"
+   },
+   "source_group": 590,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     137.2,
+     93.8,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.02915558415023,
+   "actions": 71,
+   "parity_sha256": "eab0ce24d2612139595329692a61768c6e4ec4ce95cf7f47ebe5ce4aba8bf7c9",
+   "clean_job": "cal-tworoom-nat-590"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47407437862477253,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2794156597671575
+  }
+ },
+ {
+  "id": "tworoom-g0590-L2-right",
+  "env": "tworoom",
+  "group": "g0590",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    149.52449475031545,
+    67.5945645711151,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   109.16897583007812,
+   62.42732620239258
+  ],
+  "ap_case": {
+   "id": "tworoom-g0590-L2-right",
+   "row": {
+    "episode": 590,
+    "global_start": 54100,
+    "global_goal": 54200,
+    "horizon": 100,
+    "environment_seed": 1383874460,
+    "optimizer_seed": 1457737509,
+    "record_id": "qd-v1-tworoom-deployment-590",
+    "split": "deployment"
+   },
+   "source_group": 590,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     149.52449475031545,
+     67.5945645711151,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999922,
+   "actions": 71,
+   "parity_sha256": "eab0ce24d2612139595329692a61768c6e4ec4ce95cf7f47ebe5ce4aba8bf7c9",
+   "clean_job": "cal-tworoom-nat-590"
+  },
+  "placement": {
+   "blocked": 0.004679588753767394,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47407437862477253,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2794156597671575
+  }
+ },
+ {
+  "id": "tworoom-g0590-L3-on",
+  "env": "tworoom",
+  "group": "g0590",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    158.166015625,
+    49.10871887207031,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   109.16897583007812,
+   62.42732620239258
+  ],
+  "ap_case": {
+   "id": "tworoom-g0590-L3-on",
+   "row": {
+    "episode": 590,
+    "global_start": 54100,
+    "global_goal": 54200,
+    "horizon": 100,
+    "environment_seed": 1383874460,
+    "optimizer_seed": 1457737509,
+    "record_id": "qd-v1-tworoom-deployment-590",
+    "split": "deployment"
+   },
+   "source_group": 590,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     158.166015625,
+     49.10871887207031,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 71,
+   "parity_sha256": "eab0ce24d2612139595329692a61768c6e4ec4ce95cf7f47ebe5ce4aba8bf7c9",
+   "clean_job": "cal-tworoom-nat-590"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47407437862477253,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2794156597671575
+  }
+ },
+ {
+  "id": "tworoom-g0590-L4-goal",
+  "env": "tworoom",
+  "group": "g0590",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    109.16897583007812,
+    62.42732620239258,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   109.16897583007812,
+   62.42732620239258
+  ],
+  "ap_case": {
+   "id": "tworoom-g0590-L4-goal",
+   "row": {
+    "episode": 590,
+    "global_start": 54100,
+    "global_goal": 54200,
+    "horizon": 100,
+    "environment_seed": 1383874460,
+    "optimizer_seed": 1457737509,
+    "record_id": "qd-v1-tworoom-deployment-590",
+    "split": "deployment"
+   },
+   "source_group": 590,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     109.16897583007812,
+     62.42732620239258,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.28168946732313505,
+   "actions": 71,
+   "parity_sha256": "eab0ce24d2612139595329692a61768c6e4ec4ce95cf7f47ebe5ce4aba8bf7c9",
+   "clean_job": "cal-tworoom-nat-590"
+  },
+  "placement": {
+   "blocked": 0.1644295302013423,
+   "anchor_index": 32,
+   "anchor_arc_fraction": 0.47407437862477253,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 1.2794156597671575
+  }
+ },
+ {
+  "id": "tworoom-g3799-L1-left",
+  "env": "tworoom",
+  "group": "g3799",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    135.79999999999998,
+    123.19999999999999,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   156.6242218017578,
+   63.32530212402344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3799-L1-left",
+   "row": {
+    "episode": 3799,
+    "global_start": 349027,
+    "global_goal": 349127,
+    "horizon": 100,
+    "environment_seed": 2071961244,
+    "optimizer_seed": 1134276236,
+    "record_id": "qd-v1-tworoom-deployment-3799",
+    "split": "deployment"
+   },
+   "source_group": 3799,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     135.79999999999998,
+     123.19999999999999,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.038545061687773,
+   "actions": 95,
+   "parity_sha256": "30c234522e2fbbedceb40f0f6c670d37b791c2bd0c6aa8dc7b5b901cf29e2fb7",
+   "clean_job": "cal-tworoom-nat-3799"
+  },
+  "placement": {
+   "blocked": 0.008368200836820083,
+   "anchor_index": 34,
+   "anchor_arc_fraction": 0.502364853635952,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2424217385745098
+  }
+ },
+ {
+  "id": "tworoom-g3799-L2-left",
+  "env": "tworoom",
+  "group": "g3799",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    101.13084763293568,
+    99.13125231904272,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   156.6242218017578,
+   63.32530212402344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3799-L2-left",
+   "row": {
+    "episode": 3799,
+    "global_start": 349027,
+    "global_goal": 349127,
+    "horizon": 100,
+    "environment_seed": 2071961244,
+    "optimizer_seed": 1134276236,
+    "record_id": "qd-v1-tworoom-deployment-3799",
+    "split": "deployment"
+   },
+   "source_group": 3799,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     101.13084763293568,
+     99.13125231904272,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.2499999999999995,
+   "actions": 95,
+   "parity_sha256": "30c234522e2fbbedceb40f0f6c670d37b791c2bd0c6aa8dc7b5b901cf29e2fb7",
+   "clean_job": "cal-tworoom-nat-3799"
+  },
+  "placement": {
+   "blocked": 0.28918692372170995,
+   "anchor_index": 34,
+   "anchor_arc_fraction": 0.502364853635952,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2424217385745098
+  }
+ },
+ {
+  "id": "tworoom-g3799-L3-on",
+  "env": "tworoom",
+  "group": "g3799",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    83.24609375,
+    90.24713134765625,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   156.6242218017578,
+   63.32530212402344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3799-L3-on",
+   "row": {
+    "episode": 3799,
+    "global_start": 349027,
+    "global_goal": 349127,
+    "horizon": 100,
+    "environment_seed": 2071961244,
+    "optimizer_seed": 1134276236,
+    "record_id": "qd-v1-tworoom-deployment-3799",
+    "split": "deployment"
+   },
+   "source_group": 3799,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     83.24609375,
+     90.24713134765625,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 95,
+   "parity_sha256": "30c234522e2fbbedceb40f0f6c670d37b791c2bd0c6aa8dc7b5b901cf29e2fb7",
+   "clean_job": "cal-tworoom-nat-3799"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 34,
+   "anchor_arc_fraction": 0.502364853635952,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2424217385745098
+  }
+ },
+ {
+  "id": "tworoom-g3799-L4-goal",
+  "env": "tworoom",
+  "group": "g3799",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    156.6242218017578,
+    63.32530212402344,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   156.6242218017578,
+   63.32530212402344
+  ],
+  "ap_case": {
+   "id": "tworoom-g3799-L4-goal",
+   "row": {
+    "episode": 3799,
+    "global_start": 349027,
+    "global_goal": 349127,
+    "horizon": 100,
+    "environment_seed": 2071961244,
+    "optimizer_seed": 1134276236,
+    "record_id": "qd-v1-tworoom-deployment-3799",
+    "split": "deployment"
+   },
+   "source_group": 3799,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     156.6242218017578,
+     63.32530212402344,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.3186833885157828,
+   "actions": 95,
+   "parity_sha256": "30c234522e2fbbedceb40f0f6c670d37b791c2bd0c6aa8dc7b5b901cf29e2fb7",
+   "clean_job": "cal-tworoom-nat-3799"
+  },
+  "placement": {
+   "blocked": 0.0013226902335440327,
+   "anchor_index": 34,
+   "anchor_arc_fraction": 0.502364853635952,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2424217385745098
+  }
+ },
+ {
+  "id": "tworoom-g2791-L1-right",
+  "env": "tworoom",
+  "group": "g2791",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    43.4,
+    121.8,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   123.40386199951172,
+   48.20211410522461
+  ],
+  "ap_case": {
+   "id": "tworoom-g2791-L1-right",
+   "row": {
+    "episode": 2791,
+    "global_start": 256684,
+    "global_goal": 256784,
+    "horizon": 100,
+    "environment_seed": 1898150000,
+    "optimizer_seed": 1423043523,
+    "record_id": "qd-v1-tworoom-deployment-2791",
+    "split": "deployment"
+   },
+   "source_group": 2791,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     43.4,
+     121.8,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.004503192645201,
+   "actions": 106,
+   "parity_sha256": "1dd829f20bbb28b3c55fc2d5ca2501937cf76aef017a1c66c86c28685bab1aed",
+   "clean_job": "cal-tworoom-nat-2791"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 53,
+   "anchor_arc_fraction": 0.5052754471466115,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2245979092294192
+  }
+ },
+ {
+  "id": "tworoom-g2791-L2-right",
+  "env": "tworoom",
+  "group": "g2791",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    72.17279848148544,
+    112.92684091340728,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   123.40386199951172,
+   48.20211410522461
+  ],
+  "ap_case": {
+   "id": "tworoom-g2791-L2-right",
+   "row": {
+    "episode": 2791,
+    "global_start": 256684,
+    "global_goal": 256784,
+    "horizon": 100,
+    "environment_seed": 1898150000,
+    "optimizer_seed": 1423043523,
+    "record_id": "qd-v1-tworoom-deployment-2791",
+    "split": "deployment"
+   },
+   "source_group": 2791,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     72.17279848148544,
+     112.92684091340728,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999895,
+   "actions": 106,
+   "parity_sha256": "1dd829f20bbb28b3c55fc2d5ca2501937cf76aef017a1c66c86c28685bab1aed",
+   "clean_job": "cal-tworoom-nat-2791"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 53,
+   "anchor_arc_fraction": 0.5052754471466115,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2245979092294192
+  }
+ },
+ {
+  "id": "tworoom-g2791-L3-on",
+  "env": "tworoom",
+  "group": "g2791",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    86.0936279296875,
+    102.34478759765625,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   123.40386199951172,
+   48.20211410522461
+  ],
+  "ap_case": {
+   "id": "tworoom-g2791-L3-on",
+   "row": {
+    "episode": 2791,
+    "global_start": 256684,
+    "global_goal": 256784,
+    "horizon": 100,
+    "environment_seed": 1898150000,
+    "optimizer_seed": 1423043523,
+    "record_id": "qd-v1-tworoom-deployment-2791",
+    "split": "deployment"
+   },
+   "source_group": 2791,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     86.0936279296875,
+     102.34478759765625,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 106,
+   "parity_sha256": "1dd829f20bbb28b3c55fc2d5ca2501937cf76aef017a1c66c86c28685bab1aed",
+   "clean_job": "cal-tworoom-nat-2791"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 53,
+   "anchor_arc_fraction": 0.5052754471466115,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2245979092294192
+  }
+ },
+ {
+  "id": "tworoom-g2791-L4-goal",
+  "env": "tworoom",
+  "group": "g2791",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    123.40386199951172,
+    48.20211410522461,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   123.40386199951172,
+   48.20211410522461
+  ],
+  "ap_case": {
+   "id": "tworoom-g2791-L4-goal",
+   "row": {
+    "episode": 2791,
+    "global_start": 256684,
+    "global_goal": 256784,
+    "horizon": 100,
+    "environment_seed": 1898150000,
+    "optimizer_seed": 1423043523,
+    "record_id": "qd-v1-tworoom-deployment-2791",
+    "split": "deployment"
+   },
+   "source_group": 2791,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     123.40386199951172,
+     48.20211410522461,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.33650721786087323,
+   "actions": 106,
+   "parity_sha256": "1dd829f20bbb28b3c55fc2d5ca2501937cf76aef017a1c66c86c28685bab1aed",
+   "clean_job": "cal-tworoom-nat-2791"
+  },
+  "placement": {
+   "blocked": 0.02991633033878908,
+   "anchor_index": 53,
+   "anchor_arc_fraction": 0.5052754471466115,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2245979092294192
+  }
+ },
+ {
+  "id": "tworoom-g5358-L1-left",
+  "env": "tworoom",
+  "group": "g5358",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    190.39999999999998,
+    44.8,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   111.38492584228516,
+   47.135032653808594
+  ],
+  "ap_case": {
+   "id": "tworoom-g5358-L1-left",
+   "row": {
+    "episode": 5358,
+    "global_start": 492925,
+    "global_goal": 493025,
+    "horizon": 100,
+    "environment_seed": 647404918,
+    "optimizer_seed": 418937745,
+    "record_id": "qd-v1-tworoom-deployment-5358",
+    "split": "deployment"
+   },
+   "source_group": 5358,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     190.39999999999998,
+     44.8,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0050408009551353,
+   "actions": 152,
+   "parity_sha256": "39e95117bb5da1105b8e031b6191fe90c7887651c06611f55d2cd87260eccd49",
+   "clean_job": "cal-tworoom-nat-5358"
+  },
+  "placement": {
+   "blocked": 0.0021619148635998453,
+   "anchor_index": 72,
+   "anchor_arc_fraction": 0.5019540421777127,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2601804056864216
+  }
+ },
+ {
+  "id": "tworoom-g5358-L2-left",
+  "env": "tworoom",
+  "group": "g5358",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    169.69723455042492,
+    75.5828106938007,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   111.38492584228516,
+   47.135032653808594
+  ],
+  "ap_case": {
+   "id": "tworoom-g5358-L2-left",
+   "row": {
+    "episode": 5358,
+    "global_start": 492925,
+    "global_goal": 493025,
+    "horizon": 100,
+    "environment_seed": 647404918,
+    "optimizer_seed": 418937745,
+    "record_id": "qd-v1-tworoom-deployment-5358",
+    "split": "deployment"
+   },
+   "source_group": 5358,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     169.69723455042492,
+     75.5828106938007,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999778,
+   "actions": 152,
+   "parity_sha256": "39e95117bb5da1105b8e031b6191fe90c7887651c06611f55d2cd87260eccd49",
+   "clean_job": "cal-tworoom-nat-5358"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 72,
+   "anchor_arc_fraction": 0.5019540421777127,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2601804056864216
+  }
+ },
+ {
+  "id": "tworoom-g5358-L3-on",
+  "env": "tworoom",
+  "group": "g5358",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    153.20785522460938,
+    77.48778533935547,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   111.38492584228516,
+   47.135032653808594
+  ],
+  "ap_case": {
+   "id": "tworoom-g5358-L3-on",
+   "row": {
+    "episode": 5358,
+    "global_start": 492925,
+    "global_goal": 493025,
+    "horizon": 100,
+    "environment_seed": 647404918,
+    "optimizer_seed": 418937745,
+    "record_id": "qd-v1-tworoom-deployment-5358",
+    "split": "deployment"
+   },
+   "source_group": 5358,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     153.20785522460938,
+     77.48778533935547,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 152,
+   "parity_sha256": "39e95117bb5da1105b8e031b6191fe90c7887651c06611f55d2cd87260eccd49",
+   "clean_job": "cal-tworoom-nat-5358"
+  },
+  "placement": {
+   "blocked": 0.0038403641237115815,
+   "anchor_index": 72,
+   "anchor_arc_fraction": 0.5019540421777127,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2601804056864216
+  }
+ },
+ {
+  "id": "tworoom-g5358-L4-goal",
+  "env": "tworoom",
+  "group": "g5358",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    111.38492584228516,
+    47.135032653808594,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   111.38492584228516,
+   47.135032653808594
+  ],
+  "ap_case": {
+   "id": "tworoom-g5358-L4-goal",
+   "row": {
+    "episode": 5358,
+    "global_start": 492925,
+    "global_goal": 493025,
+    "horizon": 100,
+    "environment_seed": 647404918,
+    "optimizer_seed": 418937745,
+    "record_id": "qd-v1-tworoom-deployment-5358",
+    "split": "deployment"
+   },
+   "source_group": 5358,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     111.38492584228516,
+     47.135032653808594,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.3009247214038709,
+   "actions": 152,
+   "parity_sha256": "39e95117bb5da1105b8e031b6191fe90c7887651c06611f55d2cd87260eccd49",
+   "clean_job": "cal-tworoom-nat-5358"
+  },
+  "placement": {
+   "blocked": 0.08885163453478626,
+   "anchor_index": 72,
+   "anchor_arc_fraction": 0.5019540421777127,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.2601804056864216
+  }
+ },
+ {
+  "id": "tworoom-g5857-L1-right",
+  "env": "tworoom",
+  "group": "g5857",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    88.19999999999999,
+    112.0,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   110.12648010253906,
+   54.95039367675781
+  ],
+  "ap_case": {
+   "id": "tworoom-g5857-L1-right",
+   "row": {
+    "episode": 5857,
+    "global_start": 538849,
+    "global_goal": 538949,
+    "horizon": 100,
+    "environment_seed": 1493560745,
+    "optimizer_seed": 1515094432,
+    "record_id": "qd-v1-tworoom-deployment-5857",
+    "split": "deployment"
+   },
+   "source_group": 5857,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     88.19999999999999,
+     112.0,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.6297278682867264,
+   "actions": 72,
+   "parity_sha256": "ec5190af8af90c4a7aa8240d0a74bbda691279d962617d8c0848c3e7d4e2e966",
+   "clean_job": "cal-tworoom-nat-5857"
+  },
+  "placement": {
+   "blocked": 0.009205020920502092,
+   "anchor_index": 43,
+   "anchor_arc_fraction": 0.6599591110282398,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.137870913506849
+  }
+ },
+ {
+  "id": "tworoom-g5857-L2-right",
+  "env": "tworoom",
+  "group": "g5857",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    138.88593713180992,
+    125.94350089398063,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   110.12648010253906,
+   54.95039367675781
+  ],
+  "ap_case": {
+   "id": "tworoom-g5857-L2-right",
+   "row": {
+    "episode": 5857,
+    "global_start": 538849,
+    "global_goal": 538949,
+    "horizon": 100,
+    "environment_seed": 1493560745,
+    "optimizer_seed": 1515094432,
+    "record_id": "qd-v1-tworoom-deployment-5857",
+    "split": "deployment"
+   },
+   "source_group": 5857,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     138.88593713180992,
+     125.94350089398063,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999922,
+   "actions": 72,
+   "parity_sha256": "ec5190af8af90c4a7aa8240d0a74bbda691279d962617d8c0848c3e7d4e2e966",
+   "clean_job": "cal-tworoom-nat-5857"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 43,
+   "anchor_arc_fraction": 0.6599591110282398,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.137870913506849
+  }
+ },
+ {
+  "id": "tworoom-g5857-L3-on",
+  "env": "tworoom",
+  "group": "g5857",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    150.77589416503906,
+    112.48497772216797,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   110.12648010253906,
+   54.95039367675781
+  ],
+  "ap_case": {
+   "id": "tworoom-g5857-L3-on",
+   "row": {
+    "episode": 5857,
+    "global_start": 538849,
+    "global_goal": 538949,
+    "horizon": 100,
+    "environment_seed": 1493560745,
+    "optimizer_seed": 1515094432,
+    "record_id": "qd-v1-tworoom-deployment-5857",
+    "split": "deployment"
+   },
+   "source_group": 5857,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     150.77589416503906,
+     112.48497772216797,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.5611051270902925,
+   "actions": 72,
+   "parity_sha256": "ec5190af8af90c4a7aa8240d0a74bbda691279d962617d8c0848c3e7d4e2e966",
+   "clean_job": "cal-tworoom-nat-5857"
+  },
+  "placement": {
+   "blocked": 0.0038403641237115815,
+   "anchor_index": 43,
+   "anchor_arc_fraction": 0.6599591110282398,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.137870913506849
+  }
+ },
+ {
+  "id": "tworoom-g5857-L4-goal",
+  "env": "tworoom",
+  "group": "g5857",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 12.47538056959078,
+  "body_radius": 7.0,
+  "hazard": {
+   "center": [
+    110.12648010253906,
+    54.95039367675781,
+    0.0
+   ],
+   "radius": 12.47538056959078
+  },
+  "goal": [
+   110.12648010253906,
+   54.95039367675781
+  ],
+  "ap_case": {
+   "id": "tworoom-g5857-L4-goal",
+   "row": {
+    "episode": 5857,
+    "global_start": 538849,
+    "global_goal": 538949,
+    "horizon": 100,
+    "environment_seed": 1493560745,
+    "optimizer_seed": 1515094432,
+    "record_id": "qd-v1-tworoom-deployment-5857",
+    "split": "deployment"
+   },
+   "source_group": 5857,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     110.12648010253906,
+     54.95039367675781,
+     0.0
+    ],
+    "radius": 12.47538056959078
+   },
+   "action_cap": 200
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.42323421358344343,
+   "actions": 72,
+   "parity_sha256": "ec5190af8af90c4a7aa8240d0a74bbda691279d962617d8c0848c3e7d4e2e966",
+   "clean_job": "cal-tworoom-nat-5857"
+  },
+  "placement": {
+   "blocked": 0.09874476987447699,
+   "anchor_index": 43,
+   "anchor_arc_fraction": 0.6599591110282398,
+   "anchor_rule": "strict",
+   "goal_end_steps": 1.137870913506849
+  }
+ }
+]

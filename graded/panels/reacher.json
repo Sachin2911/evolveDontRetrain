@@ -1,0 +1,1466 @@
+[
+ {
+  "id": "reacher-g8668-L1-right",
+  "env": "reacher",
+  "group": "g8668",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.17200000000000004,
+    0.08000000000000002,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.19697237871345025,
+   -0.04805448647463929
+  ],
+  "ap_case": {
+   "id": "reacher-g8668-L1-right",
+   "row": {
+    "episode": 8668,
+    "global_start": 1742268,
+    "global_goal": 1742418,
+    "horizon": 150,
+    "environment_seed": 1442946442,
+    "optimizer_seed": 1686464060,
+    "record_id": "qd-v1-reacher-deployment-8668",
+    "split": "deployment"
+   },
+   "source_group": 8668,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     0.17200000000000004,
+     0.08000000000000002,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0173374964870527,
+   "actions": 159,
+   "parity_sha256": "c918b3792b159f3174592a3f3084951194f6e021bd1c53477bbd3db330b5f4c7",
+   "clean_job": "cal-reacher-nat-8668"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 54,
+   "anchor_arc_fraction": 0.3618597851158981,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 0.15020326248803767
+  }
+ },
+ {
+  "id": "reacher-g8668-L2-left",
+  "env": "reacher",
+  "group": "g8668",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.07176024538168932,
+    -0.20317508253393335,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.19697237871345025,
+   -0.04805448647463929
+  ],
+  "ap_case": {
+   "id": "reacher-g8668-L2-left",
+   "row": {
+    "episode": 8668,
+    "global_start": 1742268,
+    "global_goal": 1742418,
+    "horizon": 150,
+    "environment_seed": 1442946442,
+    "optimizer_seed": 1686464060,
+    "record_id": "qd-v1-reacher-deployment-8668",
+    "split": "deployment"
+   },
+   "source_group": 8668,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     0.07176024538168932,
+     -0.20317508253393335,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999992,
+   "actions": 159,
+   "parity_sha256": "c918b3792b159f3174592a3f3084951194f6e021bd1c53477bbd3db330b5f4c7",
+   "clean_job": "cal-reacher-nat-8668"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 54,
+   "anchor_arc_fraction": 0.3618597851158981,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 0.15020326248803767
+  }
+ },
+ {
+  "id": "reacher-g8668-L3-on",
+  "env": "reacher",
+  "group": "g8668",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.049706082054789255,
+    -0.16751992945344332,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.19697237871345025,
+   -0.04805448647463929
+  ],
+  "ap_case": {
+   "id": "reacher-g8668-L3-on",
+   "row": {
+    "episode": 8668,
+    "global_start": 1742268,
+    "global_goal": 1742418,
+    "horizon": 150,
+    "environment_seed": 1442946442,
+    "optimizer_seed": 1686464060,
+    "record_id": "qd-v1-reacher-deployment-8668",
+    "split": "deployment"
+   },
+   "source_group": 8668,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     0.049706082054789255,
+     -0.16751992945344332,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.2349282014446765,
+   "actions": 159,
+   "parity_sha256": "c918b3792b159f3174592a3f3084951194f6e021bd1c53477bbd3db330b5f4c7",
+   "clean_job": "cal-reacher-nat-8668"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 54,
+   "anchor_arc_fraction": 0.3618597851158981,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 0.15020326248803767
+  }
+ },
+ {
+  "id": "reacher-g8668-L4-goal",
+  "env": "reacher",
+  "group": "g8668",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.19697237871345025,
+    -0.04805448647463929,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.19697237871345025,
+   -0.04805448647463929
+  ],
+  "ap_case": {
+   "id": "reacher-g8668-L4-goal",
+   "row": {
+    "episode": 8668,
+    "global_start": 1742268,
+    "global_goal": 1742418,
+    "horizon": 150,
+    "environment_seed": 1442946442,
+    "optimizer_seed": 1686464060,
+    "record_id": "qd-v1-reacher-deployment-8668",
+    "split": "deployment"
+   },
+   "source_group": 8668,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     -0.19697237871345025,
+     -0.04805448647463929,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.084724938956639,
+   "actions": 159,
+   "parity_sha256": "c918b3792b159f3174592a3f3084951194f6e021bd1c53477bbd3db330b5f4c7",
+   "clean_job": "cal-reacher-nat-8668"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 54,
+   "anchor_arc_fraction": 0.3618597851158981,
+   "anchor_rule": "relaxed",
+   "goal_end_steps": 0.15020326248803767
+  }
+ },
+ {
+  "id": "reacher-g4968-L1-right",
+  "env": "reacher",
+  "group": "g4968",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.148,
+    -0.128,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.17690805217671138,
+   0.16110016493708731
+  ],
+  "ap_case": {
+   "id": "reacher-g4968-L1-right",
+   "row": {
+    "episode": 4968,
+    "global_start": 998568,
+    "global_goal": 998718,
+    "horizon": 150,
+    "environment_seed": 1703562005,
+    "optimizer_seed": 1043046927,
+    "record_id": "qd-v1-reacher-deployment-4968",
+    "split": "deployment"
+   },
+   "source_group": 4968,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     -0.148,
+     -0.128,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0221656789277187,
+   "actions": 149,
+   "parity_sha256": "d7f449ff0316e0acb52014e07b5c098d6c4db9647cdc911cb43bbef080f88349",
+   "clean_job": "cal-reacher-nat-4968"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 68,
+   "anchor_arc_fraction": 0.5006630828912927,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.20679200883603466
+  }
+ },
+ {
+  "id": "reacher-g4968-L2-right",
+  "env": "reacher",
+  "group": "g4968",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.17636435181682847,
+    -0.005940241917256293,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.17690805217671138,
+   0.16110016493708731
+  ],
+  "ap_case": {
+   "id": "reacher-g4968-L2-right",
+   "row": {
+    "episode": 4968,
+    "global_start": 998568,
+    "global_goal": 998718,
+    "horizon": 150,
+    "environment_seed": 1703562005,
+    "optimizer_seed": 1043046927,
+    "record_id": "qd-v1-reacher-deployment-4968",
+    "split": "deployment"
+   },
+   "source_group": 4968,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     -0.17636435181682847,
+     -0.005940241917256293,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999942,
+   "actions": 149,
+   "parity_sha256": "d7f449ff0316e0acb52014e07b5c098d6c4db9647cdc911cb43bbef080f88349",
+   "clean_job": "cal-reacher-nat-4968"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 68,
+   "anchor_arc_fraction": 0.5006630828912927,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.20679200883603466
+  }
+ },
+ {
+  "id": "reacher-g4968-L3-on",
+  "env": "reacher",
+  "group": "g4968",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.23971158283116406,
+    -0.007925602509956203,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.17690805217671138,
+   0.16110016493708731
+  ],
+  "ap_case": {
+   "id": "reacher-g4968-L3-on",
+   "row": {
+    "episode": 4968,
+    "global_start": 998568,
+    "global_goal": 998718,
+    "horizon": 150,
+    "environment_seed": 1703562005,
+    "optimizer_seed": 1043046927,
+    "record_id": "qd-v1-reacher-deployment-4968",
+    "split": "deployment"
+   },
+   "source_group": 4968,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     -0.23971158283116406,
+     -0.007925602509956203,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.2349282014446765,
+   "actions": 149,
+   "parity_sha256": "d7f449ff0316e0acb52014e07b5c098d6c4db9647cdc911cb43bbef080f88349",
+   "clean_job": "cal-reacher-nat-4968"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 68,
+   "anchor_arc_fraction": 0.5006630828912927,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.20679200883603466
+  }
+ },
+ {
+  "id": "reacher-g4968-L4-goal",
+  "env": "reacher",
+  "group": "g4968",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.17690805217671138,
+    0.16110016493708731,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.17690805217671138,
+   0.16110016493708731
+  ],
+  "ap_case": {
+   "id": "reacher-g4968-L4-goal",
+   "row": {
+    "episode": 4968,
+    "global_start": 998568,
+    "global_goal": 998718,
+    "horizon": 150,
+    "environment_seed": 1703562005,
+    "optimizer_seed": 1043046927,
+    "record_id": "qd-v1-reacher-deployment-4968",
+    "split": "deployment"
+   },
+   "source_group": 4968,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     0.17690805217671138,
+     0.16110016493708731,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.1321927314250606,
+   "actions": 149,
+   "parity_sha256": "d7f449ff0316e0acb52014e07b5c098d6c4db9647cdc911cb43bbef080f88349",
+   "clean_job": "cal-reacher-nat-4968"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 68,
+   "anchor_arc_fraction": 0.5006630828912927,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.20679200883603466
+  }
+ },
+ {
+  "id": "reacher-g9227-L1-left",
+  "env": "reacher",
+  "group": "g9227",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.07599999999999998,
+    -0.00799999999999998,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.10248238916566217,
+   -0.18589682696525545
+  ],
+  "ap_case": {
+   "id": "reacher-g9227-L1-left",
+   "row": {
+    "episode": 9227,
+    "global_start": 1854627,
+    "global_goal": 1854777,
+    "horizon": 150,
+    "environment_seed": 316318137,
+    "optimizer_seed": 956805126,
+    "record_id": "qd-v1-reacher-deployment-9227",
+    "split": "deployment"
+   },
+   "source_group": 9227,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     -0.07599999999999998,
+     -0.00799999999999998,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0079666000762812,
+   "actions": 169,
+   "parity_sha256": "1c8387661242bf3eff4d8968ffc3fb5c25697aa79d05e5fd16a0500a54a00ff5",
+   "clean_job": "cal-reacher-nat-9227"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 64,
+   "anchor_arc_fraction": 0.4008300902437739,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.1831948880096588
+  }
+ },
+ {
+  "id": "reacher-g9227-L2-left",
+  "env": "reacher",
+  "group": "g9227",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.07599403045579571,
+    -0.13835642179630026,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.10248238916566217,
+   -0.18589682696525545
+  ],
+  "ap_case": {
+   "id": "reacher-g9227-L2-left",
+   "row": {
+    "episode": 9227,
+    "global_start": 1854627,
+    "global_goal": 1854777,
+    "horizon": 150,
+    "environment_seed": 316318137,
+    "optimizer_seed": 956805126,
+    "record_id": "qd-v1-reacher-deployment-9227",
+    "split": "deployment"
+   },
+   "source_group": 9227,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     -0.07599403045579571,
+     -0.13835642179630026,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999958,
+   "actions": 169,
+   "parity_sha256": "1c8387661242bf3eff4d8968ffc3fb5c25697aa79d05e5fd16a0500a54a00ff5",
+   "clean_job": "cal-reacher-nat-9227"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 64,
+   "anchor_arc_fraction": 0.4008300902437739,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.1831948880096588
+  }
+ },
+ {
+  "id": "reacher-g9227-L3-on",
+  "env": "reacher",
+  "group": "g9227",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.09456729477193501,
+    -0.175942455291278,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.10248238916566217,
+   -0.18589682696525545
+  ],
+  "ap_case": {
+   "id": "reacher-g9227-L3-on",
+   "row": {
+    "episode": 9227,
+    "global_start": 1854627,
+    "global_goal": 1854777,
+    "horizon": 150,
+    "environment_seed": 316318137,
+    "optimizer_seed": 956805126,
+    "record_id": "qd-v1-reacher-deployment-9227",
+    "split": "deployment"
+   },
+   "source_group": 9227,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     -0.09456729477193501,
+     -0.175942455291278,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.2349282014446765,
+   "actions": 169,
+   "parity_sha256": "1c8387661242bf3eff4d8968ffc3fb5c25697aa79d05e5fd16a0500a54a00ff5",
+   "clean_job": "cal-reacher-nat-9227"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 64,
+   "anchor_arc_fraction": 0.4008300902437739,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.1831948880096588
+  }
+ },
+ {
+  "id": "reacher-g9227-L4-goal",
+  "env": "reacher",
+  "group": "g9227",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.10248238916566217,
+    -0.18589682696525545,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.10248238916566217,
+   -0.18589682696525545
+  ],
+  "ap_case": {
+   "id": "reacher-g9227-L4-goal",
+   "row": {
+    "episode": 9227,
+    "global_start": 1854627,
+    "global_goal": 1854777,
+    "horizon": 150,
+    "environment_seed": 316318137,
+    "optimizer_seed": 956805126,
+    "record_id": "qd-v1-reacher-deployment-9227",
+    "split": "deployment"
+   },
+   "source_group": 9227,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     0.10248238916566217,
+     -0.18589682696525545,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.101715162900693,
+   "actions": 169,
+   "parity_sha256": "1c8387661242bf3eff4d8968ffc3fb5c25697aa79d05e5fd16a0500a54a00ff5",
+   "clean_job": "cal-reacher-nat-9227"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 64,
+   "anchor_arc_fraction": 0.4008300902437739,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.1831948880096588
+  }
+ },
+ {
+  "id": "reacher-g7945-L1-left",
+  "env": "reacher",
+  "group": "g7945",
+  "level": 1,
+  "split": "test",
+  "side": 1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.03600000000000003,
+    -0.07199999999999998,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.1196531548735334,
+   0.17994934431269244
+  ],
+  "ap_case": {
+   "id": "reacher-g7945-L1-left",
+   "row": {
+    "episode": 7945,
+    "global_start": 1596945,
+    "global_goal": 1597095,
+    "horizon": 150,
+    "environment_seed": 1548531331,
+    "optimizer_seed": 813289850,
+    "record_id": "qd-v1-reacher-deployment-7945",
+    "split": "deployment"
+   },
+   "source_group": 7945,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     0.03600000000000003,
+     -0.07199999999999998,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.0256470849239054,
+   "actions": 143,
+   "parity_sha256": "ae0f8d0a1a41391306e93a562ca6780ddb7803644ebefa11efdc7d48c6678bfd",
+   "clean_job": "cal-reacher-nat-7945"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 62,
+   "anchor_arc_fraction": 0.4543753696537372,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.09795088387776246
+  }
+ },
+ {
+  "id": "reacher-g7945-L2-right",
+  "env": "reacher",
+  "group": "g7945",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.2602978840131555,
+    0.08994444062038354,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.1196531548735334,
+   0.17994934431269244
+  ],
+  "ap_case": {
+   "id": "reacher-g7945-L2-right",
+   "row": {
+    "episode": 7945,
+    "global_start": 1596945,
+    "global_goal": 1597095,
+    "horizon": 150,
+    "environment_seed": 1548531331,
+    "optimizer_seed": 813289850,
+    "record_id": "qd-v1-reacher-deployment-7945",
+    "split": "deployment"
+   },
+   "source_group": 7945,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     0.2602978840131555,
+     0.08994444062038354,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999975,
+   "actions": 143,
+   "parity_sha256": "ae0f8d0a1a41391306e93a562ca6780ddb7803644ebefa11efdc7d48c6678bfd",
+   "clean_job": "cal-reacher-nat-7945"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 62,
+   "anchor_arc_fraction": 0.4543753696537372,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.09795088387776246
+  }
+ },
+ {
+  "id": "reacher-g7945-L3-on",
+  "env": "reacher",
+  "group": "g7945",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.21657317521687502,
+    0.07911745925110478,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.1196531548735334,
+   0.17994934431269244
+  ],
+  "ap_case": {
+   "id": "reacher-g7945-L3-on",
+   "row": {
+    "episode": 7945,
+    "global_start": 1596945,
+    "global_goal": 1597095,
+    "horizon": 150,
+    "environment_seed": 1548531331,
+    "optimizer_seed": 813289850,
+    "record_id": "qd-v1-reacher-deployment-7945",
+    "split": "deployment"
+   },
+   "source_group": 7945,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     0.21657317521687502,
+     0.07911745925110478,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.2349282014446765,
+   "actions": 143,
+   "parity_sha256": "ae0f8d0a1a41391306e93a562ca6780ddb7803644ebefa11efdc7d48c6678bfd",
+   "clean_job": "cal-reacher-nat-7945"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 62,
+   "anchor_arc_fraction": 0.4543753696537372,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.09795088387776246
+  }
+ },
+ {
+  "id": "reacher-g7945-L4-goal",
+  "env": "reacher",
+  "group": "g7945",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.1196531548735334,
+    0.17994934431269244,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   0.1196531548735334,
+   0.17994934431269244
+  ],
+  "ap_case": {
+   "id": "reacher-g7945-L4-goal",
+   "row": {
+    "episode": 7945,
+    "global_start": 1596945,
+    "global_goal": 1597095,
+    "horizon": 150,
+    "environment_seed": 1548531331,
+    "optimizer_seed": 813289850,
+    "record_id": "qd-v1-reacher-deployment-7945",
+    "split": "deployment"
+   },
+   "source_group": 7945,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     0.1196531548735334,
+     0.17994934431269244,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.1574646286614674,
+   "actions": 143,
+   "parity_sha256": "ae0f8d0a1a41391306e93a562ca6780ddb7803644ebefa11efdc7d48c6678bfd",
+   "clean_job": "cal-reacher-nat-7945"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 62,
+   "anchor_arc_fraction": 0.4543753696537372,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.09795088387776246
+  }
+ },
+ {
+  "id": "reacher-g4970-L1-right",
+  "env": "reacher",
+  "group": "g4970",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.055999999999999994,
+    -0.07999999999999999,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.18468425036075872,
+   -0.13344818587739793
+  ],
+  "ap_case": {
+   "id": "reacher-g4970-L1-right",
+   "row": {
+    "episode": 4970,
+    "global_start": 998970,
+    "global_goal": 999120,
+    "horizon": 150,
+    "environment_seed": 488788496,
+    "optimizer_seed": 1177557832,
+    "record_id": "qd-v1-reacher-deployment-4970",
+    "split": "deployment"
+   },
+   "source_group": 4970,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     0.055999999999999994,
+     -0.07999999999999999,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.014072083745053,
+   "actions": 154,
+   "parity_sha256": "fc74d381a75719089301aba1872e690a36889a7bad8575a3705ea39e5dd6b3be",
+   "clean_job": "cal-reacher-nat-4970"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5037075961169007,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.134678005415791
+  }
+ },
+ {
+  "id": "reacher-g4970-L2-left",
+  "env": "reacher",
+  "group": "g4970",
+  "level": 2,
+  "split": "test",
+  "side": 1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.01454105980462574,
+    -0.27742945440848304,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.18468425036075872,
+   -0.13344818587739793
+  ],
+  "ap_case": {
+   "id": "reacher-g4970-L2-left",
+   "row": {
+    "episode": 4970,
+    "global_start": 998970,
+    "global_goal": 999120,
+    "horizon": 150,
+    "environment_seed": 488788496,
+    "optimizer_seed": 1177557832,
+    "record_id": "qd-v1-reacher-deployment-4970",
+    "split": "deployment"
+   },
+   "source_group": 4970,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     0.01454105980462574,
+     -0.27742945440848304,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999942,
+   "actions": 154,
+   "parity_sha256": "fc74d381a75719089301aba1872e690a36889a7bad8575a3705ea39e5dd6b3be",
+   "clean_job": "cal-reacher-nat-4970"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5037075961169007,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.134678005415791
+  }
+ },
+ {
+  "id": "reacher-g4970-L3-on",
+  "env": "reacher",
+  "group": "g4970",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    0.020234462286837986,
+    -0.2358931903803076,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.18468425036075872,
+   -0.13344818587739793
+  ],
+  "ap_case": {
+   "id": "reacher-g4970-L3-on",
+   "row": {
+    "episode": 4970,
+    "global_start": 998970,
+    "global_goal": 999120,
+    "horizon": 150,
+    "environment_seed": 488788496,
+    "optimizer_seed": 1177557832,
+    "record_id": "qd-v1-reacher-deployment-4970",
+    "split": "deployment"
+   },
+   "source_group": 4970,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     0.020234462286837986,
+     -0.2358931903803076,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.2349282014446765,
+   "actions": 154,
+   "parity_sha256": "fc74d381a75719089301aba1872e690a36889a7bad8575a3705ea39e5dd6b3be",
+   "clean_job": "cal-reacher-nat-4970"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5037075961169007,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.134678005415791
+  }
+ },
+ {
+  "id": "reacher-g4970-L4-goal",
+  "env": "reacher",
+  "group": "g4970",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.18468425036075872,
+    -0.13344818587739793,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.18468425036075872,
+   -0.13344818587739793
+  ],
+  "ap_case": {
+   "id": "reacher-g4970-L4-goal",
+   "row": {
+    "episode": 4970,
+    "global_start": 998970,
+    "global_goal": 999120,
+    "horizon": 150,
+    "environment_seed": 488788496,
+    "optimizer_seed": 1177557832,
+    "record_id": "qd-v1-reacher-deployment-4970",
+    "split": "deployment"
+   },
+   "source_group": 4970,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     -0.18468425036075872,
+     -0.13344818587739793,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.1174618603277442,
+   "actions": 154,
+   "parity_sha256": "fc74d381a75719089301aba1872e690a36889a7bad8575a3705ea39e5dd6b3be",
+   "clean_job": "cal-reacher-nat-4970"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5037075961169007,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.134678005415791
+  }
+ },
+ {
+  "id": "reacher-g7843-L1-right",
+  "env": "reacher",
+  "group": "g7843",
+  "level": 1,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.06,
+    -0.07199999999999998,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.2255927599802636,
+   0.04368115339140773
+  ],
+  "ap_case": {
+   "id": "reacher-g7843-L1-right",
+   "row": {
+    "episode": 7843,
+    "global_start": 1576443,
+    "global_goal": 1576593,
+    "horizon": 150,
+    "environment_seed": 1367830766,
+    "optimizer_seed": 769836810,
+    "record_id": "qd-v1-reacher-deployment-7843",
+    "split": "deployment"
+   },
+   "source_group": 7843,
+   "condition": "L1",
+   "hazard": {
+    "center": [
+     -0.06,
+     -0.07199999999999998,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": false,
+   "min_clear_steps": 2.004563581263728,
+   "actions": 166,
+   "parity_sha256": "e0d0d911419d0e9a1a3d1cc8147d0ad3c1550a47692788679c4c3f36751cf32b",
+   "clean_job": "cal-reacher-nat-7843"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5070810063110546,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.12942629964618382
+  }
+ },
+ {
+  "id": "reacher-g7843-L2-right",
+  "env": "reacher",
+  "group": "g7843",
+  "level": 2,
+  "split": "test",
+  "side": -1,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.11206972845277971,
+    -0.15328180945825085,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.2255927599802636,
+   0.04368115339140773
+  ],
+  "ap_case": {
+   "id": "reacher-g7843-L2-right",
+   "row": {
+    "episode": 7843,
+    "global_start": 1576443,
+    "global_goal": 1576593,
+    "horizon": 150,
+    "environment_seed": 1367830766,
+    "optimizer_seed": 769836810,
+    "record_id": "qd-v1-reacher-deployment-7843",
+    "split": "deployment"
+   },
+   "source_group": 7843,
+   "condition": "L2",
+   "hazard": {
+    "center": [
+     -0.11206972845277971,
+     -0.15328180945825085,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -0.24999999999999975,
+   "actions": 166,
+   "parity_sha256": "e0d0d911419d0e9a1a3d1cc8147d0ad3c1550a47692788679c4c3f36751cf32b",
+   "clean_job": "cal-reacher-nat-7843"
+  },
+  "placement": {
+   "blocked": 0.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5070810063110546,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.12942629964618382
+  }
+ },
+ {
+  "id": "reacher-g7843-L3-on",
+  "env": "reacher",
+  "group": "g7843",
+  "level": 3,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.14502706580248517,
+    -0.19029934892758113,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.2255927599802636,
+   0.04368115339140773
+  ],
+  "ap_case": {
+   "id": "reacher-g7843-L3-on",
+   "row": {
+    "episode": 7843,
+    "global_start": 1576443,
+    "global_goal": 1576593,
+    "horizon": 150,
+    "environment_seed": 1367830766,
+    "optimizer_seed": 769836810,
+    "record_id": "qd-v1-reacher-deployment-7843",
+    "split": "deployment"
+   },
+   "source_group": 7843,
+   "condition": "L3",
+   "hazard": {
+    "center": [
+     -0.14502706580248517,
+     -0.19029934892758113,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.2349282014446765,
+   "actions": 166,
+   "parity_sha256": "e0d0d911419d0e9a1a3d1cc8147d0ad3c1550a47692788679c4c3f36751cf32b",
+   "clean_job": "cal-reacher-nat-7843"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5070810063110546,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.12942629964618382
+  }
+ },
+ {
+  "id": "reacher-g7843-L4-goal",
+  "env": "reacher",
+  "group": "g7843",
+  "level": 4,
+  "split": "test",
+  "side": 0,
+  "step": 0.04256619655922795,
+  "body_radius": 0.01,
+  "hazard": {
+   "center": [
+    -0.2255927599802636,
+    0.04368115339140773,
+    0.0
+   ],
+   "radius": 0.04256619655922795
+  },
+  "goal": [
+   -0.2255927599802636,
+   0.04368115339140773
+  ],
+  "ap_case": {
+   "id": "reacher-g7843-L4-goal",
+   "row": {
+    "episode": 7843,
+    "global_start": 1576443,
+    "global_goal": 1576593,
+    "horizon": 150,
+    "environment_seed": 1367830766,
+    "optimizer_seed": 769836810,
+    "record_id": "qd-v1-reacher-deployment-7843",
+    "split": "deployment"
+   },
+   "source_group": 7843,
+   "condition": "L4",
+   "hazard": {
+    "center": [
+     -0.2255927599802636,
+     0.04368115339140773,
+     0.0
+    ],
+    "radius": 0.04256619655922795
+   },
+   "action_cap": 300
+  },
+  "native": {
+   "success": true,
+   "violation": true,
+   "min_clear_steps": -1.1055019017984928,
+   "actions": 166,
+   "parity_sha256": "e0d0d911419d0e9a1a3d1cc8147d0ad3c1550a47692788679c4c3f36751cf32b",
+   "clean_job": "cal-reacher-nat-7843"
+  },
+  "placement": {
+   "blocked": 1.0,
+   "anchor_index": 94,
+   "anchor_arc_fraction": 0.5070810063110546,
+   "anchor_rule": "strict",
+   "goal_end_steps": 0.12942629964618382
+  }
+ }
+]
