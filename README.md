@@ -1,4 +1,4 @@
-# Evolve, Don't Retrain? Safety Adapters for Frozen Planners on Graded Hazards
+# Evolve, Don't Retrain? Safety Adapters for Frozen Planners
 
 Project page: https://sachin2911.github.io/evolveDontRetrain/
 
