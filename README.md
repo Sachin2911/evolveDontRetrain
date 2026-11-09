@@ -1,4 +1,4 @@
-# Evolve, Don't Retrain? Safety Adapters for Frozen Planners
+# Evolve, Don't Retrain? Safety Adapters for Frozen World Models
 
 Project page: https://sachin2911.github.io/evolveDontRetrain/
 
